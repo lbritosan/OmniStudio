@@ -3,6 +3,7 @@ ignoreDependencies: false
 VlocityDataPackKeys:
     - IntegrationProcedure/IP_HttpActionGetPost_Example_IP_HttpActionGetPost_Example
     - remoteSiteSettings/ChuckNorrisAPI.remoteSite
+    - IntegrationProcedure/IP_Demo_IP_Demo
 VlocityTypesToFetch:
     - IntegrationProcedure
 SalesforceTypesToFetch:
