@@ -1,0 +1,9 @@
+Name: OmniStudio
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - IntegrationProcedure/IP_HttpActionGetPost_Example_IP_HttpActionGetPost_Example
+    - remoteSiteSettings/ChuckNorrisAPI.remoteSite
+VlocityTypesToFetch:
+    - IntegrationProcedure
+SalesforceTypesToFetch:
+    - RemoteSiteSetting
