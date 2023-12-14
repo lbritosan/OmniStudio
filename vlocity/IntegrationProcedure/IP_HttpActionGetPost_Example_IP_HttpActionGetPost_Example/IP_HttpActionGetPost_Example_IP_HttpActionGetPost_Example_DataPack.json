@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "https://www.youtube.com/watch?v=73Ofg2BNGF4",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "IP_HttpActionGetPost_Example",
+    "OmniProcessElement": [
+        "IP_HttpActionGetPost_Example_IP_HttpActionGetPost_Example_Element_ChuckNorrisGetAction.json",
+        "IP_HttpActionGetPost_Example_IP_HttpActionGetPost_Example_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "IP_HttpActionGetPost_Example_IP_HttpActionGetPost_Example",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "IP_HttpActionGetPost_Example_IP_HttpActionGetPost_Example_PropertySetConfig.json",
+    "SubType": "IP_HttpActionGetPost_Example",
+    "Type": "IP_HttpActionGetPost_Example",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/IP_HttpActionGetPost_Example/IP_HttpActionGetPost_Example/Procedure",
+    "WebComponentKey": "92ce1c34-56a9-819d-dd21-668281d90220"
+}
