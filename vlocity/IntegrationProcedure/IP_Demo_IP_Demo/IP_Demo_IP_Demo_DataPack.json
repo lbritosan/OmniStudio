@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "IP_Demo",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "IP_Demo",
+    "OmniProcessElement": [
+        "IP_Demo_IP_Demo_Element_SetValues1.json",
+        "IP_Demo_IP_Demo_Element_SetValues2.json",
+        "IP_Demo_IP_Demo_Element_DataRaptorExtractAction1.json",
+        "IP_Demo_IP_Demo_Element_DataRaptorExtractAction2.json"
+    ],
+    "OmniProcessKey": "IP_Demo_IP_Demo",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "IP_Demo_IP_Demo_PropertySetConfig.json",
+    "SubType": "IP_Demo",
+    "Type": "IP_Demo",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/IP_Demo/IP_Demo/Procedure",
+    "WebComponentKey": "c9e0b943-d018-9ee2-7a1c-76ecb38401f2"
+}
