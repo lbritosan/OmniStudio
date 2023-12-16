@@ -1,0 +1,41 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "ActionBlock1",
+    "OmniProcessId": {
+        "Name": "OS_ActionElements",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/OS_ActionElements/OS_ActionElements/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Step1",
+        "OmniProcessId": {
+            "Name": "OS_ActionElements",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/OS_ActionElements/OS_ActionElements/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/OS_ActionElements/OS_ActionElements/English/Step1",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Step1",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "applyIfError": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "enableActionMessage": false,
+        "failureGoBackLabel": "Go Back",
+        "failureNextLabel": "Continue",
+        "hide": false,
+        "label": "ActionBlock1",
+        "show": null,
+        "validationRequired": "Step"
+    },
+    "Type": "Action Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/OS_ActionElements/OS_ActionElements/English/ActionBlock1"
+}

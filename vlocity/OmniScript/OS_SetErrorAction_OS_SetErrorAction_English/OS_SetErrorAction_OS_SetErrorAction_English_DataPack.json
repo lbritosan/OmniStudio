@@ -1,0 +1,33 @@
+{
+    "Description": "https://www.youtube.com/watch?v=akCkrMXBHps&list=PLZHR2zv1HIDez6HsLnAfJkGDy716Ea6V7&index=30",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "OS_SetErrorAction",
+    "OmniProcessElement": [
+        "OS_SetErrorAction_OS_SetErrorAction_English_Element_ErrorVars.json",
+        "OS_SetErrorAction_OS_SetErrorAction_English_Element_Step3.json",
+        "OS_SetErrorAction_OS_SetErrorAction_English_Element_Step1.json",
+        "OS_SetErrorAction_OS_SetErrorAction_English_Element_PersonFullName.json",
+        "OS_SetErrorAction_OS_SetErrorAction_English_Element_LineBreak1.json",
+        "OS_SetErrorAction_OS_SetErrorAction_English_Element_TextBlock1.json",
+        "OS_SetErrorAction_OS_SetErrorAction_English_Element_Email.json",
+        "OS_SetErrorAction_OS_SetErrorAction_English_Element_MobileNumber.json",
+        "OS_SetErrorAction_OS_SetErrorAction_English_Element_FullNameRequired.json",
+        "OS_SetErrorAction_OS_SetErrorAction_English_Element_CheckingEmailAndMobileValidation.json",
+        "OS_SetErrorAction_OS_SetErrorAction_English_Element_EmailOrMobileIsRequired.json",
+        "OS_SetErrorAction_OS_SetErrorAction_English_Element_Step2.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "OS_SetErrorAction_OS_SetErrorAction_English_PropertySetConfig.json",
+    "SubType": "OS_SetErrorAction",
+    "Type": "OS_SetErrorAction",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/OS_SetErrorAction/OS_SetErrorAction/English",
+    "WebComponentKey": "3e5b2b7f-edf9-0c85-e55d-2cdd1e9904b4"
+}

@@ -1,0 +1,76 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "Select1",
+    "OmniProcessId": {
+        "Name": "OS_InputElements_SelectMultiRadio",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/OS_InputElements_SelectMultiRadio/OS_InputElements_SelectMultiRadio/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Step1",
+        "OmniProcessId": {
+            "Name": "OS_InputElements_SelectMultiRadio",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/OS_InputElements_SelectMultiRadio/OS_InputElements_SelectMultiRadio/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/OS_InputElements_SelectMultiRadio/OS_InputElements_SelectMultiRadio/English/Step1",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Step1",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": "Option2",
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "helpTextPos": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Select1",
+        "optionSource": {
+            "source": "MyPicklistOptions.AccountNames",
+            "type": "Custom"
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "Option1",
+                "value": "Option1"
+            },
+            {
+                "autoAdv": null,
+                "name": "Option2",
+                "value": "Option2"
+            },
+            {
+                "autoAdv": "next",
+                "name": "Option3",
+                "value": "Option3"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/OS_InputElements_SelectMultiRadio/OS_InputElements_SelectMultiRadio/English/Select1"
+}

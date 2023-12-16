@@ -1,0 +1,33 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "CheckingEmailAndMobileValidation",
+    "OmniProcessId": {
+        "Name": "OS_SetErrorAction",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/OS_SetErrorAction/OS_SetErrorAction/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "EmailOrMobileRequiredFlag": "=%Email% == NULL && %MobileNumber% == NULL"
+        },
+        "label": "CheckingEmailAndMobileValidation",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/OS_SetErrorAction/OS_SetErrorAction/English/CheckingEmailAndMobileValidation"
+}

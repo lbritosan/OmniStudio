@@ -1,0 +1,31 @@
+{
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "OS_BasicInputElement",
+    "OmniProcessElement": [
+        "OS_BasicInputElement_OS_BasicInputElement_English_Element_Step1.json",
+        "OS_BasicInputElement_OS_BasicInputElement_English_Element_Currency1.json",
+        "OS_BasicInputElement_OS_BasicInputElement_English_Element_Currency2.json",
+        "OS_BasicInputElement_OS_BasicInputElement_English_Element_Checkbox1.json",
+        "OS_BasicInputElement_OS_BasicInputElement_English_Element_Disclosure1.json",
+        "OS_BasicInputElement_OS_BasicInputElement_English_Element_Email1.json",
+        "OS_BasicInputElement_OS_BasicInputElement_English_Element_Range1.json",
+        "OS_BasicInputElement_OS_BasicInputElement_English_Element_Telephone1.json",
+        "OS_BasicInputElement_OS_BasicInputElement_English_Element_Text1.json",
+        "OS_BasicInputElement_OS_BasicInputElement_English_Element_Time1.json",
+        "OS_BasicInputElement_OS_BasicInputElement_English_Element_URL1.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "OS_BasicInputElement_OS_BasicInputElement_English_PropertySetConfig.json",
+    "SubType": "OS_BasicInputElement",
+    "Type": "OS_BasicInputElement",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/OS_BasicInputElement/OS_BasicInputElement/English",
+    "WebComponentKey": "d4eb8de5-88c0-ae93-2d5d-fdf31d863ed7"
+}

@@ -1,0 +1,25 @@
+{
+    "Description": "https://www.youtube.com/watch?v=PJ8OWy-JmQI&list=PLZHR2zv1HIDez6HsLnAfJkGDy716Ea6V7&index=24",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "OS_LookupInputElement",
+    "OmniProcessElement": [
+        "OS_LookupInputElement_OS_LookupInputElement_English_Element_Step1.json",
+        "OS_LookupInputElement_OS_LookupInputElement_English_Element_Custom.json",
+        "OS_LookupInputElement_OS_LookupInputElement_English_Element_Picklist.json",
+        "OS_LookupInputElement_OS_LookupInputElement_English_Element_sObject.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "OS_LookupInputElement_OS_LookupInputElement_English_PropertySetConfig.json",
+    "SubType": "OS_LookupInputElement",
+    "Type": "OS_LookupInputElement",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/OS_LookupInputElement/OS_LookupInputElement/English",
+    "WebComponentKey": "31dc4532-2ecb-c8f0-54f9-0639f1d35930"
+}

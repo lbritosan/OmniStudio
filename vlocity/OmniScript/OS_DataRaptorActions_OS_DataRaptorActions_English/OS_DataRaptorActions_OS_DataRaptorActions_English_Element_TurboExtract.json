@@ -1,0 +1,52 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "TurboExtract",
+    "OmniProcessId": {
+        "Name": "OS_DataRaptorActions",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/OS_DataRaptorActions/OS_DataRaptorActions/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "bundle": "DR_AccountTurboDataRaptor",
+        "businessCategory": "",
+        "businessEvent": "",
+        "controlWidth": 12,
+        "dataRaptor Input Parameters": [
+            {
+                "element": "AccountName",
+                "inputParam": "AccName"
+            }
+        ],
+        "enableActionMessage": false,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "failureGoBackLabel": "Go Back",
+        "failureNextLabel": "Continue",
+        "ignoreCache": false,
+        "inProgressMessage": "In Progress",
+        "label": "TurboExtract",
+        "message": {
+        },
+        "postMessage": "Done",
+        "pubsub": false,
+        "responseJSONNode": "AccountTurboDataRaptor",
+        "responseJSONPath": "Accounts",
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "Type": "DataRaptor Turbo Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/OS_DataRaptorActions/OS_DataRaptorActions/English/TurboExtract"
+}

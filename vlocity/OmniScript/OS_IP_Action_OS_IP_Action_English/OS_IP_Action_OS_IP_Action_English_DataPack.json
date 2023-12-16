@@ -1,0 +1,29 @@
+{
+    "Description": "https://www.youtube.com/watch?v=DVd-UGqCd-Y&list=PLZHR2zv1HIDez6HsLnAfJkGDy716Ea6V7&index=29",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "OS_IP_Action",
+    "OmniProcessElement": [
+        "OS_IP_Action_OS_IP_Action_English_Element_Step1.json",
+        "OS_IP_Action_OS_IP_Action_English_Element_FirstName.json",
+        "OS_IP_Action_OS_IP_Action_English_Element_LastName.json",
+        "OS_IP_Action_OS_IP_Action_English_Element_DefaultCalling.json",
+        "OS_IP_Action_OS_IP_Action_English_Element_NonBlockingCalling.json",
+        "OS_IP_Action_OS_IP_Action_English_Element_FireForgetCalling.json",
+        "OS_IP_Action_OS_IP_Action_English_Element_Step2.json",
+        "OS_IP_Action_OS_IP_Action_English_Element_FullName.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "OS_IP_Action_OS_IP_Action_English_PropertySetConfig.json",
+    "SubType": "OS_IP_Action",
+    "Type": "OS_IP_Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/OS_IP_Action/OS_IP_Action/English",
+    "WebComponentKey": "54c2d543-f1a0-6ebb-bbb8-c67fdee97860"
+}

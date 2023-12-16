@@ -1,0 +1,29 @@
+{
+    "Description": "https://www.youtube.com/watch?v=cyh8hYOm9UE&list=PLZHR2zv1HIDez6HsLnAfJkGDy716Ea6V7&index=27",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "OS_ActionElements",
+    "OmniProcessElement": [
+        "OS_ActionElements_OS_ActionElements_English_Element_DataRaptorExtractAction2.json",
+        "OS_ActionElements_OS_ActionElements_English_Element_Step1.json",
+        "OS_ActionElements_OS_ActionElements_English_Element_ActionBlock1.json",
+        "OS_ActionElements_OS_ActionElements_English_Element_DataRaptorExtractAction1.json",
+        "OS_ActionElements_OS_ActionElements_English_Element_DataRaptorExtractAction3.json",
+        "OS_ActionElements_OS_ActionElements_English_Element_DeleteAction1.json",
+        "OS_ActionElements_OS_ActionElements_English_Element_EmailAction1.json",
+        "OS_ActionElements_OS_ActionElements_English_Element_IntegrationProcedureAction1.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "OS_ActionElements_OS_ActionElements_English_PropertySetConfig.json",
+    "SubType": "OS_ActionElements",
+    "Type": "OS_ActionElements",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/OS_ActionElements/OS_ActionElements/English",
+    "WebComponentKey": "7f54d463-a60b-2b77-ce22-7f52b8caa440"
+}

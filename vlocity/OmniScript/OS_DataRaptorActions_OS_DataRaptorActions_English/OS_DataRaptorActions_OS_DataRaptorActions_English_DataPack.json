@@ -1,0 +1,29 @@
+{
+    "Description": "https://www.youtube.com/watch?v=KsZXKRycZI8&list=PLZHR2zv1HIDez6HsLnAfJkGDy716Ea6V7&index=28",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "OS_DataRaptorActions",
+    "OmniProcessElement": [
+        "OS_DataRaptorActions_OS_DataRaptorActions_English_Element_SetValues1.json",
+        "OS_DataRaptorActions_OS_DataRaptorActions_English_Element_ExtractAction.json",
+        "OS_DataRaptorActions_OS_DataRaptorActions_English_Element_TurboExtract.json",
+        "OS_DataRaptorActions_OS_DataRaptorActions_English_Element_Step1.json",
+        "OS_DataRaptorActions_OS_DataRaptorActions_English_Element_FirstName.json",
+        "OS_DataRaptorActions_OS_DataRaptorActions_English_Element_LastName.json",
+        "OS_DataRaptorActions_OS_DataRaptorActions_English_Element_TransformDRAction.json",
+        "OS_DataRaptorActions_OS_DataRaptorActions_English_Element_CreateContact.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "OS_DataRaptorActions_OS_DataRaptorActions_English_PropertySetConfig.json",
+    "SubType": "OS_DataRaptorActions",
+    "Type": "OS_DataRaptorActions",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/OS_DataRaptorActions/OS_DataRaptorActions/English",
+    "WebComponentKey": "0abf3389-1667-5a14-0b4e-e27b611600e6"
+}

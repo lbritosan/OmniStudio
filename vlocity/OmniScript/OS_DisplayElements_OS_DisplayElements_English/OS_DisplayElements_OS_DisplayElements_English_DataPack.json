@@ -1,0 +1,26 @@
+{
+    "Description": "https://www.youtube.com/watch?v=YgKzVNLX6Wk&list=PLZHR2zv1HIDez6HsLnAfJkGDy716Ea6V7&index=25",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "OS_DisplayElements",
+    "OmniProcessElement": [
+        "OS_DisplayElements_OS_DisplayElements_English_Element_Step1.json",
+        "OS_DisplayElements_OS_DisplayElements_English_Element_Text1.json",
+        "OS_DisplayElements_OS_DisplayElements_English_Element_LineBreak1.json",
+        "OS_DisplayElements_OS_DisplayElements_English_Element_Text2.json",
+        "OS_DisplayElements_OS_DisplayElements_English_Element_TextBlock1.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "OS_DisplayElements_OS_DisplayElements_English_PropertySetConfig.json",
+    "SubType": "OS_DisplayElements",
+    "Type": "OS_DisplayElements",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/OS_DisplayElements/OS_DisplayElements/English",
+    "WebComponentKey": "4b0790bd-8cd7-513b-4519-bdb4f9c1a1ae"
+}
