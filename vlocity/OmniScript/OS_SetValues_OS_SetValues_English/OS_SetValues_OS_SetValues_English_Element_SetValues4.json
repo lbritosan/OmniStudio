@@ -1,0 +1,33 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetValues4",
+    "OmniProcessId": {
+        "Name": "OS_SetValues",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/OS_SetValues/OS_SetValues/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 3,
+        "elementValueMap": {
+            "Result": "=IF( %Operator% == '+', %Number1% + %Number2% , IF( %Operator% == '-', %Number1% - %Number2% , IF( %Operator% == '/', %Number1% / %Number2% , IF( %Operator% == '*', %Number1% * %Number2% , 0 ) ) ) )"
+        },
+        "label": "Calculate",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/OS_SetValues/OS_SetValues/English/SetValues4"
+}
