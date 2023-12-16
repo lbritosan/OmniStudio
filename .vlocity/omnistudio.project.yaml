@@ -1,9 +1,42 @@
 Name: OmniStudio
 ignoreDependencies: false
 VlocityDataPackKeys:
+    - IntegrationProcedure/IP_Demo_IP_Demo
     - IntegrationProcedure/IP_HttpActionGetPost_Example_IP_HttpActionGetPost_Example
     - remoteSiteSettings/ChuckNorrisAPI.remoteSite
-    - IntegrationProcedure/IP_Demo_IP_Demo
+    - IntegrationProcedure/IP_ApexHours_Basic_IP_ApexHours_Basic
+    - IntegrationProcedure/IP_DataRaptor_Actions_IP_DataRaptor_Actions
+    - IntegrationProcedure/IP_Delete_Action_IP_Delete_Action
+    - IntegrationProcedure/IP_FC_AsDataSource_IP_FC_AsDataSource
+    - IntegrationProcedure/IP_ForOS_IP_ForOS
+    - IntegrationProcedure/IP_Group_Conditional_Block_IP_Group_Conditional_Block
+    - IntegrationProcedure/IP_Group_Loop_Block_IP_Group_Loop_Block
+    - IntegrationProcedure/IP_List_Action_Multiple_Examples_IP_List_Action_Multiple_Examples
+    - IntegrationProcedure/IP_Send_Response_Transformations_IP_Send_Response_Transformations
+    - IntegrationProcedure/IP_Set_Response_Action_IP_Set_Response_Action
+    - IntegrationProcedure/sample_getAccountContactDetails
+    - IntegrationProcedure/sample_getAccountDetails
+    - IntegrationProcedure/sample_getCaseDetails
+    - IntegrationProcedure/sample_getCaseList
+    - IntegrationProcedure/sample_getContactDetails
+    - IntegrationProcedure/sample_getPrimaryContactDetails
+    - IntegrationProcedure/sample_getWeatherDetails
+    - IntegrationProcedure/sample_saveAccountDetails
+    - IntegrationProcedure/sample_saveCaseDetails
+    - IntegrationProcedure/sample_saveContactDetails
+    - IntegrationProcedure/sample_savePrimaryContactDetails
+    - IntegrationProcedure/team_getAccountContactDetails
+    - IntegrationProcedure/team_getAccountContactDetailsFlex
+    - IntegrationProcedure/team_getAccountDetails
+    - IntegrationProcedure/team_getCaseDetails
+    - IntegrationProcedure/team_getCaseList
+    - IntegrationProcedure/team_getContactDetails
+    - IntegrationProcedure/team_getPrimaryContactDetails
+    - IntegrationProcedure/team_getWeatherDetails
+    - IntegrationProcedure/team_saveAccountDetails
+    - IntegrationProcedure/team_saveCaseDetails
+    - IntegrationProcedure/team_saveContactDetails
+    - IntegrationProcedure/team_savePrimaryContactDetails
 VlocityTypesToFetch:
     - IntegrationProcedure
 SalesforceTypesToFetch:
