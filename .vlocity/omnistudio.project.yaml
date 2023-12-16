@@ -118,6 +118,16 @@ VlocityTypesToFetch:
     - DataRaptor
     - IntegrationProcedure
     - OmniScript
+    - VlocityAction
+    - VlocityAttachment
     - VlocityCard
+    - VlocityDataStore
+    - VlocityFunction
+    - VlocityPicklist
+    - VlocityScheduledJob
+    - VlocitySearchWidgetSetup
+    - VlocityStateModel
+    - VlocityUILayout
+    - VlocityUITemplate
 SalesforceTypesToFetch:
     - RemoteSiteSetting
