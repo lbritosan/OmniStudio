@@ -1,123 +1,137 @@
 Name: OmniStudio
 ignoreDependencies: false
 VlocityDataPackKeys:
+    - DataRaptor/DR_AccountTurboDataRaptor
+    - DataRaptor/DR_ApexHours_Turbo
+    - DataRaptor/DR_CreateContact
     - DataRaptor/DR_Extract_AccountDetails
-    - DataRaptor/FC_DataRaptorAsDataSource_DR
+    - DataRaptor/DR_Extract_GetContact
+    - DataRaptor/DR_Extract_ReusableCompanyMailingAddress
+    - DataRaptor/DR_faaFillCertificatePDF
     - DataRaptor/DR_FOR_IP_Get_Contacts_Extract
+    - DataRaptor/DR_FOR_IP_Transform
+    - DataRaptor/DR_IS_LookupExample
+    - DataRaptor/DR_MoneyHeistTeam_Contacts
+    - DataRaptor/DR_MultiObjectMultipleRecordsInsert
+    - DataRaptor/DR_MultiObjectSingleRecordInsert
+    - DataRaptor/DR_OS_FetchAccounts
+    - DataRaptor/DR_SingleObjectInsert
+    - DataRaptor/DR_SingleObjectMultiRecordInsert
+    - DataRaptor/DR_Transform_ArrayToKeyValue
+    - DataRaptor/DR_Transform_DataConversionYesNoToBoolean
+    - DataRaptor/DR_Transform_JSON_To_XML
+    - DataRaptor/DR_Transform_KeyValuesToArray
+    - DataRaptor/DR_Transform_ListObjectToListOfItems
+    - DataRaptor/DR_Transform_ListObjectToMultiPicklist
+    - DataRaptor/DR_Transform_ObjectToList
+    - DataRaptor/DR_Transform_ObjectToMultipleSObjectFormation
+    - DataRaptor/DR_TransformFromOS
+    - DataRaptor/DR_TurboExtract_GetContactDetails
+    - DataRaptor/DR_UpdateUpsertInsertExample
+    - DataRaptor/FC_DataRaptorAsDataSource_DR
+    - DataRaptor/FOR_IP_CreateContact
     - DataRaptor/FOR_IP_Get_Contacts_Extract
     - DataRaptor/FOR_IP_Get_Contacts_Turbo
     - DataRaptor/FOR_IP_Transform
-    - DataRaptor/FOR_IP_CreateContact
+    - DataRaptor/sampleChangePriContact
+    - DataRaptor/sampleChangePriContactTA
+    - DataRaptor/sampleCreatePriContact
+    - DataRaptor/sampleGetAccountContactDetails
+    - DataRaptor/sampleGetAccountDetails
+    - DataRaptor/sampleGetAccountDetailsDRExtract
+    - DataRaptor/sampleGetCaseDetails
     - DataRaptor/sampleGetCaseList
     - DataRaptor/sampleGetContactDetails
     - DataRaptor/sampleGetContactDetailsDRExtract
-    - DataRaptor/sampleSaveCaseDetails
-    - DataRaptor/sampleChangePriContactTA
-    - DataRaptor/sampleSaveContactDetails
-    - DataRaptor/sampleXformWeather
+    - DataRaptor/sampleGetPriContactDetails
     - DataRaptor/sampleSaveAccountDetails
-    - DataRaptor/sampleChangePriContact
-    - DataRaptor/sampleCreatePriContact
-    - DataRaptor/sampleGetAccountDetails
-    - DataRaptor/teamStarterGetAccountContactDetails
+    - DataRaptor/sampleSaveCaseDetails
+    - DataRaptor/sampleSaveContactDetails
     - DataRaptor/sampleUpdatePriContact
-    - DataRaptor/teamStarterUpdatePriContact
-    - DataRaptor/teamStarterXformWeather
-    - DataRaptor/teamStubChangePriContactTA
+    - DataRaptor/sampleXformWeather
     - DataRaptor/teamStarterChangePriContact
     - DataRaptor/teamStarterChangePriContactTA
     - DataRaptor/teamStarterCreatePriContact
-    - DataRaptor/sampleGetAccountDetailsDRExtract
-    - DataRaptor/sampleGetCaseDetails
-    - DataRaptor/DR_Extract_ReusableCompanyMailingAddress
-    - DataRaptor/sampleGetAccountContactDetails
-    - DataRaptor/sampleGetPriContactDetails
-    - DataRaptor/DR_Extract_GetContact
-    - DataRaptor/DR_TurboExtract_GetContactDetails
-    - DataRaptor/DR_SingleObjectMultiRecordInsert
-    - DataRaptor/DR_Transform_ListObjectToListOfItems
-    - DataRaptor/DR_MultiObjectMultipleRecordsInsert
-    - DataRaptor/DR_Transform_ObjectToList
-    - DataRaptor/DR_UpdateUpsertInsertExample
-    - DataRaptor/DR_Transform_DataConversionYesNoToBoolean
-    - DataRaptor/DR_MultiObjectSingleRecordInsert
-    - DataRaptor/DR_Transform_ListObjectToMultiPicklist
-    - DataRaptor/DR_SingleObjectInsert
-    - DataRaptor/DR_IS_LookupExample
-    - DataRaptor/DR_MoneyHeistTeam_Contacts
-    - DataRaptor/DR_TransformFromOS
-    - DataRaptor/DR_CreateContact
-    - DataRaptor/DR_ApexHours_Turbo
-    - DataRaptor/DR_faaFillCertificatePDF
-    - DataRaptor/DR_FOR_IP_Transform
-    - DataRaptor/DR_OS_FetchAccounts
-    - DataRaptor/DR_Transform_KeyValuesToArray
-    - DataRaptor/DR_Transform_ArrayToKeyValue
-    - DataRaptor/DR_Transform_JSON_To_XML
-    - DataRaptor/DR_Transform_ObjectToMultipleSObjectFormation
-    - DataRaptor/DR_AccountTurboDataRaptor
-    - IntegrationProcedure/IP_Set_Response_Action_IP_Set_Response_Action
-    - IntegrationProcedure/IP_FC_AsDataSource_IP_FC_AsDataSource
+    - DataRaptor/teamStarterGetAccountContactDetails
+    - DataRaptor/teamStarterUpdatePriContact
+    - DataRaptor/teamStarterXformWeather
+    - DataRaptor/teamStubChangePriContactTA
+    - IntegrationProcedure/IP_ApexHours_Basic_IP_ApexHours_Basic
     - IntegrationProcedure/IP_DataRaptor_Actions_IP_DataRaptor_Actions
+    - IntegrationProcedure/IP_Delete_Action_IP_Delete_Action
     - IntegrationProcedure/IP_Demo_IP_Demo
-    - IntegrationProcedure/team_getCaseList
-    - IntegrationProcedure/team_savePrimaryContactDetails
-    - IntegrationProcedure/team_getCaseDetails
-    - IntegrationProcedure/team_saveAccountDetails
-    - IntegrationProcedure/sample_getPrimaryContactDetails
-    - IntegrationProcedure/team_getPrimaryContactDetails
-    - IntegrationProcedure/sample_saveAccountDetails
+    - IntegrationProcedure/IP_FC_AsDataSource_IP_FC_AsDataSource
+    - IntegrationProcedure/IP_ForOS_IP_ForOS
+    - IntegrationProcedure/IP_Group_Conditional_Block_IP_Group_Conditional_Block
+    - IntegrationProcedure/IP_Group_Loop_Block_IP_Group_Loop_Block
+    - IntegrationProcedure/IP_HttpActionGetPost_Example_IP_HttpActionGetPost_Example
+    - IntegrationProcedure/IP_List_Action_Multiple_Examples_IP_List_Action_Multiple_Examples
+    - IntegrationProcedure/IP_Send_Response_Transformations_IP_Send_Response_Transformations
+    - IntegrationProcedure/IP_Set_Response_Action_IP_Set_Response_Action
     - IntegrationProcedure/sample_getAccountContactDetails
-    - IntegrationProcedure/team_getAccountContactDetails
-    - IntegrationProcedure/team_getAccountContactDetailsFlex
-    - IntegrationProcedure/team_getWeatherDetails
-    - IntegrationProcedure/sample_getContactDetails
-    - IntegrationProcedure/team_getAccountDetails
-    - IntegrationProcedure/sample_saveCaseDetails
-    - IntegrationProcedure/team_getContactDetails
-    - IntegrationProcedure/sample_saveContactDetails
-    - IntegrationProcedure/sample_savePrimaryContactDetails
-    - IntegrationProcedure/team_saveCaseDetails
-    - IntegrationProcedure/team_saveContactDetails
-    - IntegrationProcedure/sample_getWeatherDetails
     - IntegrationProcedure/sample_getAccountDetails
     - IntegrationProcedure/sample_getCaseDetails
     - IntegrationProcedure/sample_getCaseList
-    - IntegrationProcedure/IP_Group_Conditional_Block_IP_Group_Conditional_Block
-    - IntegrationProcedure/IP_Group_Loop_Block_IP_Group_Loop_Block
-    - IntegrationProcedure/IP_ForOS_IP_ForOS
-    - IntegrationProcedure/IP_HttpActionGetPost_Example_IP_HttpActionGetPost_Example
-    - IntegrationProcedure/IP_ApexHours_Basic_IP_ApexHours_Basic
-    - IntegrationProcedure/IP_Send_Response_Transformations_IP_Send_Response_Transformations
-    - IntegrationProcedure/IP_Delete_Action_IP_Delete_Action
-    - IntegrationProcedure/IP_List_Action_Multiple_Examples_IP_List_Action_Multiple_Examples
-    - VlocityCard/FC_Custom_DataSource
-    - VlocityCard/FC_IP_AsDataSource
-    - VlocityCard/FC_DataRaptorAsDataSource
-    - VlocityCard/sampleContacts
-    - VlocityCard/sampleCasesParent
-    - VlocityCard/sampleCases
-    - VlocityCard/sampleContactsParent
-    - VlocityCard/sampleWeather
-    - VlocityCard/sampleContactsHOWs
-    - VlocityCard/teamCases335
-    - VlocityCard/sampleAccountHOWs
-    - VlocityCard/sampleContactsParentHOWs
-    - VlocityCard/sampleAccount
-    - VlocityCard/sampleWeatherForecast
+    - IntegrationProcedure/sample_getContactDetails
+    - IntegrationProcedure/sample_getPrimaryContactDetails
+    - IntegrationProcedure/sample_getWeatherDetails
+    - IntegrationProcedure/sample_saveAccountDetails
+    - IntegrationProcedure/sample_saveCaseDetails
+    - IntegrationProcedure/sample_saveContactDetails
+    - IntegrationProcedure/sample_savePrimaryContactDetails
+    - IntegrationProcedure/team_getAccountContactDetails
+    - IntegrationProcedure/team_getAccountContactDetailsFlex
+    - IntegrationProcedure/team_getAccountDetails
+    - IntegrationProcedure/team_getCaseDetails
+    - IntegrationProcedure/team_getCaseList
+    - IntegrationProcedure/team_getContactDetails
+    - IntegrationProcedure/team_getPrimaryContactDetails
+    - IntegrationProcedure/team_getWeatherDetails
+    - IntegrationProcedure/team_saveAccountDetails
+    - IntegrationProcedure/team_saveCaseDetails
+    - IntegrationProcedure/team_saveContactDetails
+    - IntegrationProcedure/team_savePrimaryContactDetails
+    - OmniScript/OS_SetValues_OS_SetValues_English
     - VlocityCard/FC_AccountDetails
     - VlocityCard/FC_Block_State_Elements
-    - VlocityCard/FC_Field_text_Image_Icon_Elements
-    - VlocityCard/FC_ParentFlexCard
-    - VlocityCard/FC_ChildFlexCard
     - VlocityCard/FC_ChildContacts
+    - VlocityCard/FC_ChildFlexCard
+    - VlocityCard/FC_Custom_DataSource
+    - VlocityCard/FC_DataRaptorAsDataSource
+    - VlocityCard/FC_Field_text_Image_Icon_Elements
+    - VlocityCard/FC_IP_AsDataSource
     - VlocityCard/FC_Parent_Accounts
+    - VlocityCard/FC_ParentFlexCard
     - VlocityCard/FC_SelectableItems
+    - VlocityCard/FC_SelectableItemsChild
+    - VlocityCard/FC_SOQL_DataSource
+    - VlocityCard/sampleAccount
+    - VlocityCard/sampleAccountHOWs
+    - VlocityCard/sampleCases
+    - VlocityCard/sampleCasesParent
+    - VlocityCard/sampleContacts
+    - VlocityCard/sampleContactsHOWs
+    - VlocityCard/sampleContactsParent
+    - VlocityCard/sampleContactsParentHOWs
+    - VlocityCard/sampleWeather
+    - VlocityCard/sampleWeatherForecast
+    - VlocityCard/teamCases335
     - remoteSiteSettings/ChuckNorrisAPI.remoteSite
+    - OmniScript/OS_ActionElements_OS_ActionElements_English
+    - OmniScript/OS_BasicInputElement_OS_BasicInputElement_English
+    - OmniScript/OS_DataRaptorActions_OS_DataRaptorActions_English
+    - OmniScript/OS_DisplayElements_OS_DisplayElements_English
+    - OmniScript/OS_First_OS_First_English
+    - OmniScript/OS_InputElements_SelectMultiRadio_OS_InputElements_SelectMultiRadio_English
+    - OmniScript/OS_IP_Action_OS_IP_Action_English
+    - OmniScript/OS_LookupInputElement_OS_LookupInputElement_English
+    - OmniScript/OS_SetErrorAction_OS_SetErrorAction_English
 VlocityTypesToFetch:
     - DataRaptor
     - IntegrationProcedure
     - OmniScript
+    - UIFacet
+    - UISection
     - VlocityAction
     - VlocityAttachment
     - VlocityCard
