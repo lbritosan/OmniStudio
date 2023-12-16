@@ -1,0 +1,61 @@
+[
+    {
+        "GlobalKey": "DR_Transform_DataConversionYesNoToBooleanCustom8688",
+        "InputFieldName": "Movies:Genre",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_DataConversionYesNoToBoolean",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_DataConversionYesNoToBoolean",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_DataConversionYesNoToBoolean",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Movies:Genre",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_DataConversionYesNoToBooleanCustom8493",
+        "InputFieldName": "Movies:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_DataConversionYesNoToBoolean",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_DataConversionYesNoToBoolean",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_DataConversionYesNoToBoolean",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Movies:Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_DataConversionYesNoToBooleanCustom4682",
+        "InputFieldName": "Movies:Superhit",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_DataConversionYesNoToBoolean",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_DataConversionYesNoToBoolean",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_DataConversionYesNoToBoolean",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Boolean",
+        "OutputFieldName": "Movies:Superhit",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{\"Yes\":\"True\",\"No\":\"False\"}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "FilterDataType": "STRING",
+        "FilterGroup": 0,
+        "FilterOperator": "LIKE",
+        "FilterValue": "AccName",
+        "GlobalKey": "DR_AccountTurboDataRaptorCustom9075",
+        "InputFieldName": "Name",
+        "InputObjectName": "Account",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_AccountTurboDataRaptor",
+        "OmniDataTransformationId": {
+            "Name": "DR_AccountTurboDataRaptor",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_AccountTurboDataRaptor",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Accounts",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_AccountTurboDataRaptorCustom2605",
+        "InputFieldName": "AccountNumber",
+        "InputObjectName": "Account",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_AccountTurboDataRaptor",
+        "OmniDataTransformationId": {
+            "Name": "DR_AccountTurboDataRaptor",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_AccountTurboDataRaptor",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Accounts:Details",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_AccountTurboDataRaptorCustom1708",
+        "InputFieldName": "BillingCity",
+        "InputObjectName": "Account",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_AccountTurboDataRaptor",
+        "OmniDataTransformationId": {
+            "Name": "DR_AccountTurboDataRaptor",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_AccountTurboDataRaptor",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Accounts:Details",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_AccountTurboDataRaptorCustom3191",
+        "InputFieldName": "Name",
+        "InputObjectName": "Account",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_AccountTurboDataRaptor",
+        "OmniDataTransformationId": {
+            "Name": "DR_AccountTurboDataRaptor",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_AccountTurboDataRaptor",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Accounts:Details",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

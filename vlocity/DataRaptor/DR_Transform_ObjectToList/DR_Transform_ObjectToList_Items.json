@@ -1,0 +1,22 @@
+[
+    {
+        "GlobalKey": "DR_Transform_ObjectToListCustom8997",
+        "InputFieldName": "SingleObject",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ObjectToList",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ObjectToList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ObjectToList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "ListObject",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

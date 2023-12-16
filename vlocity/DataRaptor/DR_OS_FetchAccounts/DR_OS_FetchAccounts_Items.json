@@ -1,0 +1,64 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "LIKE",
+        "FilterValue": "AccName",
+        "GlobalKey": "DR_OS_FetchAccountsCustom5661",
+        "InputFieldName": "Name",
+        "InputObjectName": "Account",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_OS_FetchAccounts",
+        "OmniDataTransformationId": {
+            "Name": "DR_OS_FetchAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_OS_FetchAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Accounts",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_OS_FetchAccountsCustom3910",
+        "InputFieldName": "Accounts:AccountNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_OS_FetchAccounts",
+        "OmniDataTransformationId": {
+            "Name": "DR_OS_FetchAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_OS_FetchAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Accounts:Details:AccountNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_OS_FetchAccountsCustom165",
+        "InputFieldName": "Accounts:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_OS_FetchAccounts",
+        "OmniDataTransformationId": {
+            "Name": "DR_OS_FetchAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_OS_FetchAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Accounts:Details:Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "GlobalKey": "DR_Transform_JSON_To_XMLCustom4473",
+        "InputFieldName": "Movies",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_JSON_To_XML",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_JSON_To_XML",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_JSON_To_XML",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Movies",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

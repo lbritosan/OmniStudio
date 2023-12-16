@@ -1,0 +1,84 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "LIKE",
+        "FilterValue": "\"salesforce\"",
+        "GlobalKey": "DR_MoneyHeistTeam_ContactsCustom459",
+        "InputFieldName": "Account.Name",
+        "InputObjectName": "Contact",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_MoneyHeistTeam_Contacts",
+        "OmniDataTransformationId": {
+            "Name": "DR_MoneyHeistTeam_Contacts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_MoneyHeistTeam_Contacts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "cotacts",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_MoneyHeistTeam_ContactsCustom2411",
+        "InputFieldName": "cotacts:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_MoneyHeistTeam_Contacts",
+        "OmniDataTransformationId": {
+            "Name": "DR_MoneyHeistTeam_Contacts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_MoneyHeistTeam_Contacts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "tex",
+        "OutputFieldName": "Id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_MoneyHeistTeam_ContactsCustom4639",
+        "InputFieldName": "cotacts:Image__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_MoneyHeistTeam_Contacts",
+        "OmniDataTransformationId": {
+            "Name": "DR_MoneyHeistTeam_Contacts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_MoneyHeistTeam_Contacts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Img",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_MoneyHeistTeam_ContactsCustom200",
+        "InputFieldName": "cotacts:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_MoneyHeistTeam_Contacts",
+        "OmniDataTransformationId": {
+            "Name": "DR_MoneyHeistTeam_Contacts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_MoneyHeistTeam_Contacts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

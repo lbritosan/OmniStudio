@@ -1,0 +1,41 @@
+[
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "DR_SingleObjectMultiRecordInsertCustom2",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "DR_SingleObjectMultiRecordInsert",
+        "OmniDataTransformationId": {
+            "Name": "DR_SingleObjectMultiRecordInsert",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_SingleObjectMultiRecordInsert",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "Contact",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_SingleObjectMultiRecordInsertCustom7685",
+        "InputFieldName": "contacts:lastName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_SingleObjectMultiRecordInsert",
+        "OmniDataTransformationId": {
+            "Name": "DR_SingleObjectMultiRecordInsert",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_SingleObjectMultiRecordInsert",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "LastName",
+        "OutputObjectName": "Contact",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

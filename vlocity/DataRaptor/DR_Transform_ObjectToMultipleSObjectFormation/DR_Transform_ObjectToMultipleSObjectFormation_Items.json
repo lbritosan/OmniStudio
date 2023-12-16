@@ -1,0 +1,249 @@
+[
+    {
+        "GlobalKey": "DR_Transform_ObjectToMultipleSObjectFormationCustom9691",
+        "InputFieldName": "Email",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Account:Contact:Email",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_ObjectToMultipleSObjectFormationCustom39",
+        "InputFieldName": "FirstName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Account:Contact:FirstName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_ObjectToMultipleSObjectFormationCustom9583",
+        "InputFieldName": "LastName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Account:Contact:LastName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_ObjectToMultipleSObjectFormationCustom8023",
+        "InputFieldName": "State",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Account:Contact:State",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_ObjectToMultipleSObjectFormationCustom8760",
+        "InputFieldName": "Street",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Account:Contact:Street",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_ObjectToMultipleSObjectFormationCustom9927",
+        "InputFieldName": "Company",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Account:Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_ObjectToMultipleSObjectFormationCustom5613",
+        "InputFieldName": "State",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Account:State",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_ObjectToMultipleSObjectFormationCustom4273",
+        "InputFieldName": "Street",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Account:Street",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_ObjectToMultipleSObjectFormationCustom5659",
+        "InputFieldName": "Website",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Account:Website",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_ObjectToMultipleSObjectFormationCustom4423",
+        "InputFieldName": "Email",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "User:Email",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_ObjectToMultipleSObjectFormationCustom1149",
+        "InputFieldName": "FirstName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "User:FirstName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_ObjectToMultipleSObjectFormationCustom661",
+        "InputFieldName": "LastName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "User:LastName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_ObjectToMultipleSObjectFormationCustom5699",
+        "InputFieldName": "UserName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ObjectToMultipleSObjectFormation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "User:UserName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

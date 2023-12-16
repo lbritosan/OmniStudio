@@ -1,0 +1,64 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "LIKE",
+        "FilterValue": "AccName",
+        "GlobalKey": "DR_FOR_IP_Get_Contacts_ExtractCustom3449",
+        "InputFieldName": "Account.Name",
+        "InputObjectName": "Contact",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_FOR_IP_Get_Contacts_Extract",
+        "OmniDataTransformationId": {
+            "Name": "DR_FOR_IP_Get_Contacts_Extract",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_FOR_IP_Get_Contacts_Extract",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "contacts",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_FOR_IP_Get_Contacts_ExtractCustom3367",
+        "InputFieldName": "contacts:FirstName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_FOR_IP_Get_Contacts_Extract",
+        "OmniDataTransformationId": {
+            "Name": "DR_FOR_IP_Get_Contacts_Extract",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_FOR_IP_Get_Contacts_Extract",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "contacts:FirstName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_FOR_IP_Get_Contacts_ExtractCustom3731",
+        "InputFieldName": "contacts:LastName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_FOR_IP_Get_Contacts_Extract",
+        "OmniDataTransformationId": {
+            "Name": "DR_FOR_IP_Get_Contacts_Extract",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_FOR_IP_Get_Contacts_Extract",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "contacts:LastName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

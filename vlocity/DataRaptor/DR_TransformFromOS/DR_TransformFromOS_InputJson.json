@@ -1,0 +1,22 @@
+{
+    "ContextId": null,
+    "Step1": {
+        "FirstName": null,
+        "LastName": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CreateContact": null,
+        "DataRaptorTransformAction1": null,
+        "ExtractAction": null,
+        "SetValues1": null,
+        "Step1": null,
+        "TurboExtract": null
+    }
+}

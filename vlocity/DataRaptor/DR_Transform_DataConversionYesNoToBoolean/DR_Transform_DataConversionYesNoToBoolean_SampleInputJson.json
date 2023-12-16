@@ -1,0 +1,19 @@
+{
+    "Movies": [
+        {
+            "Genre": "Action",
+            "Name": "Spider Man",
+            "Superhit": "No"
+        },
+        {
+            "Genre": "Superhero",
+            "Name": "Iron Man",
+            "Superhit": "Yes"
+        },
+        {
+            "Genre": "Comendy",
+            "Name": "We are Millers",
+            "Superhit": "No"
+        }
+    ]
+}

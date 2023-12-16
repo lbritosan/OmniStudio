@@ -1,0 +1,40 @@
+[
+    {
+        "GlobalKey": "DR_Transform_KeyValuesToArrayCustom9946",
+        "InputFieldName": "Contact:FirstName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_KeyValuesToArray",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_KeyValuesToArray",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_KeyValuesToArray",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Fields|1",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_KeyValuesToArrayCustom6970",
+        "InputFieldName": "Contact:LastName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_KeyValuesToArray",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_KeyValuesToArray",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_KeyValuesToArray",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Fields|2",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

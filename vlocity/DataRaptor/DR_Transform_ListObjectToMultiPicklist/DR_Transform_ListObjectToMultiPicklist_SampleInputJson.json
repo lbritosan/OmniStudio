@@ -1,0 +1,16 @@
+{
+    "Movies": [
+        {
+            "Genre": "Action",
+            "Name": "Spider Man"
+        },
+        {
+            "Genre": "Superhero",
+            "Name": "Iron Man"
+        },
+        {
+            "Genre": "Comendy",
+            "Name": "We are Millers"
+        }
+    ]
+}

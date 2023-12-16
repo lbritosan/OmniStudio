@@ -1,0 +1,42 @@
+[
+    {
+        "FormulaExpression": "InputData:FirstName + \" \" + InputData:LastName",
+        "FormulaResultPath": "FullName",
+        "FormulaSequence": 1,
+        "GlobalKey": "DR_TransformFromOSCustom8053",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_TransformFromOS",
+        "OmniDataTransformationId": {
+            "Name": "DR_TransformFromOS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_TransformFromOS",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_TransformFromOSCustom647",
+        "InputFieldName": "FullName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_TransformFromOS",
+        "OmniDataTransformationId": {
+            "Name": "DR_TransformFromOS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_TransformFromOS",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Data:MoreDataNode:FullName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

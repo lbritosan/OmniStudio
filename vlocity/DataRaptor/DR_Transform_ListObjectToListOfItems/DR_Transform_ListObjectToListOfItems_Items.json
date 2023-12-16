@@ -1,0 +1,42 @@
+[
+    {
+        "FormulaExpression": "Movies:Name",
+        "FormulaResultPath": "MovieNames_Frm",
+        "FormulaSequence": 1,
+        "GlobalKey": "DR_Transform_ListObjectToListOfItems5040380996422811",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ListObjectToListOfItems",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ListObjectToListOfItems",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ListObjectToListOfItems",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_ListObjectToListOfItems36294568654305404",
+        "InputFieldName": "MovieNames_Frm",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ListObjectToListOfItems",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ListObjectToListOfItems",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ListObjectToListOfItems",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "MovieNames",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

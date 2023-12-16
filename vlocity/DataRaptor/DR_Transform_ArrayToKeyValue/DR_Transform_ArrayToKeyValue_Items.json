@@ -1,0 +1,82 @@
+[
+    {
+        "FormulaExpression": "Fields|1",
+        "FormulaResultPath": "first_name",
+        "FormulaSequence": 1,
+        "GlobalKey": "DR_Transform_ArrayToKeyValueCustom8582",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ArrayToKeyValue",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ArrayToKeyValue",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ArrayToKeyValue",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "Fields|2",
+        "FormulaResultPath": "last_name",
+        "FormulaSequence": 2,
+        "GlobalKey": "DR_Transform_ArrayToKeyValueCustom3631",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ArrayToKeyValue",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ArrayToKeyValue",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ArrayToKeyValue",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_ArrayToKeyValueCustom1382",
+        "InputFieldName": "first_name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ArrayToKeyValue",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ArrayToKeyValue",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ArrayToKeyValue",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Contact:FirstName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_ArrayToKeyValueCustom4104",
+        "InputFieldName": "last_name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ArrayToKeyValue",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ArrayToKeyValue",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ArrayToKeyValue",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Contact:LastName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

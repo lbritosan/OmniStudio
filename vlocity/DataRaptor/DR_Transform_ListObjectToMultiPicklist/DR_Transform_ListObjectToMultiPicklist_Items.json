@@ -1,0 +1,43 @@
+[
+    {
+        "FormulaExpression": "Movies:Name",
+        "FormulaResultPath": "MovieNames_Frm",
+        "FormulaSequence": 1,
+        "GlobalKey": "DR_Transform_ListObjectToMultiPicklistCustom0jIHp0000004uTSMAYItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ListObjectToMultiPicklist",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ListObjectToMultiPicklist",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ListObjectToMultiPicklist",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_Transform_ListObjectToMultiPicklistCustom0jIHp0000004uTSMAYItem1",
+        "InputFieldName": "MovieNames_Frm",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_Transform_ListObjectToMultiPicklist",
+        "OmniDataTransformationId": {
+            "Name": "DR_Transform_ListObjectToMultiPicklist",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_Transform_ListObjectToMultiPicklist",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Multi-Select",
+        "OutputFieldName": "MovieNames",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]
