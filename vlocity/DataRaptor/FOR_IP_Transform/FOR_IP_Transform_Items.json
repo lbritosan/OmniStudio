@@ -1,0 +1,40 @@
+[
+    {
+        "GlobalKey": "e9edf3d2-82a8-48c9-bdeb-66efe975adba",
+        "InputFieldName": "Full_Name:FirstName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "FOR_IP_Transform",
+        "OmniDataTransformationId": {
+            "Name": "FOR_IP_Transform",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FOR_IP_Transform",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Name:FName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "4bc913ac-bb8f-43e3-b8f1-b906506b8861",
+        "InputFieldName": "Full_Name:LastName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "FOR_IP_Transform",
+        "OmniDataTransformationId": {
+            "Name": "FOR_IP_Transform",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FOR_IP_Transform",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Name:LName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

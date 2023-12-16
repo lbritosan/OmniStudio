@@ -1,0 +1,64 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "List_Modify_Update_Field_Output",
+    "OmniProcessId": {
+        "Name": "IP_List_Action_Multiple_Examples",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/IP_List_Action_Multiple_Examples/IP_List_Action_Multiple_Examples/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "advancedMerge": false,
+        "advancedMergeMap": [
+        ],
+        "allowMergeNulls": true,
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "dynamicOutputFields": "",
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "filterListFormula": "",
+        "hasPrimary": true,
+        "label": "ListAction1",
+        "mergeFields": [
+            "Id"
+        ],
+        "mergeListsOrder": [
+            "ListWithName",
+            "ListWithAge_1"
+        ],
+        "primaryListKey": "ListWithName",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "sortBy": [
+            "name"
+        ],
+        "sortInDescendingOrder": false,
+        "updateFieldValue": {
+            "NameWithAge": "=%name% + \" - \" + age",
+            "name": "=\"My Name Is \" + %name%"
+        },
+        "useFormulas": true
+    },
+    "Type": "List Merge Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/IP_List_Action_Multiple_Examples/IP_List_Action_Multiple_Examples/Procedure/List_Modify_Update_Field_Output"
+}

@@ -1,0 +1,30 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "https://www.youtube.com/watch?v=on8Mb0HdIQs&list=PLZHR2zv1HIDez6HsLnAfJkGDy716Ea6V7&index=19",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "IP_Group_Conditional_Block",
+    "OmniProcessElement": [
+        "IP_Group_Conditional_Block_IP_Group_Conditional_Block_Element_Conditional_Block.json",
+        "IP_Group_Conditional_Block_IP_Group_Conditional_Block_Element_IF_Country_Is_US_1.json",
+        "IP_Group_Conditional_Block_IP_Group_Conditional_Block_Element_IF_Country_Is_US_2.json",
+        "IP_Group_Conditional_Block_IP_Group_Conditional_Block_Element_IF_Country_Is_India.json",
+        "IP_Group_Conditional_Block_IP_Group_Conditional_Block_Element_IF_Country_Is_Canada.json",
+        "IP_Group_Conditional_Block_IP_Group_Conditional_Block_Element_IF_Country_Is_Other.json",
+        "IP_Group_Conditional_Block_IP_Group_Conditional_Block_Element_IF_Country_Is_Other_2.json"
+    ],
+    "OmniProcessKey": "IP_Group_Conditional_Block_IP_Group_Conditional_Block",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "IP_Group_Conditional_Block_IP_Group_Conditional_Block_PropertySetConfig.json",
+    "SubType": "IP_Group_Conditional_Block",
+    "Type": "IP_Group_Conditional_Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/IP_Group_Conditional_Block/IP_Group_Conditional_Block/Procedure",
+    "WebComponentKey": "c22a0d97-cc8a-f541-850f-3c568efe8a4c"
+}

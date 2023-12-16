@@ -1,0 +1,31 @@
+{
+    "CustomJavaScript": "IP_List_Action_Multiple_Examples_IP_List_Action_Multiple_Examples_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "IP_List_Action_Multiple_Examples",
+    "OmniProcessElement": [
+        "IP_List_Action_Multiple_Examples_IP_List_Action_Multiple_Examples_Element_List_Merge_Simple.json",
+        "IP_List_Action_Multiple_Examples_IP_List_Action_Multiple_Examples_Element_List_Merge_Primary.json",
+        "IP_List_Action_Multiple_Examples_IP_List_Action_Multiple_Examples_Element_List_Merge_Advance.json",
+        "IP_List_Action_Multiple_Examples_IP_List_Action_Multiple_Examples_Element_List_Merge_Advance_With_Multi_Group.json",
+        "IP_List_Action_Multiple_Examples_IP_List_Action_Multiple_Examples_Element_List_Sort.json",
+        "IP_List_Action_Multiple_Examples_IP_List_Action_Multiple_Examples_Element_List_Modify_Dynamic_Output.json",
+        "IP_List_Action_Multiple_Examples_IP_List_Action_Multiple_Examples_Element_List_Modify_Filtered_Output.json",
+        "IP_List_Action_Multiple_Examples_IP_List_Action_Multiple_Examples_Element_List_Modify_Update_Field_Output.json",
+        "IP_List_Action_Multiple_Examples_IP_List_Action_Multiple_Examples_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "IP_List_Action_Multiple_Examples_IP_List_Action_Multiple_Examples",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "IP_List_Action_Multiple_Examples_IP_List_Action_Multiple_Examples_PropertySetConfig.json",
+    "SubType": "IP_List_Action_Multiple_Examples",
+    "Type": "IP_List_Action_Multiple_Examples",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/IP_List_Action_Multiple_Examples/IP_List_Action_Multiple_Examples/Procedure",
+    "WebComponentKey": "1b858157-e7b9-1317-8161-0ceb41d2536e"
+}

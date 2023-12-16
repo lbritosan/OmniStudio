@@ -1,0 +1,22 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "https://www.youtube.com/watch?v=nzWnahIY8Qc&list=PLZHR2zv1HIDez6HsLnAfJkGDy716Ea6V7&index=17",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "IP_Delete_Action",
+    "OmniProcessElement": "IP_Delete_Action_IP_Delete_Action_Element_DeleteAction.json",
+    "OmniProcessKey": "IP_Delete_Action_IP_Delete_Action",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "IP_Delete_Action_IP_Delete_Action_PropertySetConfig.json",
+    "SubType": "IP_Delete_Action",
+    "Type": "IP_Delete_Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/IP_Delete_Action/IP_Delete_Action/Procedure",
+    "WebComponentKey": "b292ccb7-3a17-9b08-19b5-17129ae68af3"
+}

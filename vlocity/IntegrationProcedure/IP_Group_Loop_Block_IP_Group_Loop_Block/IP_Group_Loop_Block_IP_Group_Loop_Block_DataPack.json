@@ -1,0 +1,29 @@
+{
+    "CustomJavaScript": "IP_Group_Loop_Block_IP_Group_Loop_Block_SampleInput.json",
+    "Description": "https://www.youtube.com/watch?v=xp1tSSCWdqU&list=PLZHR2zv1HIDez6HsLnAfJkGDy716Ea6V7&index=18",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "IP_Group_Loop_Block",
+    "OmniProcessElement": [
+        "IP_Group_Loop_Block_IP_Group_Loop_Block_Element_Init_Final_Str.json",
+        "IP_Group_Loop_Block_IP_Group_Loop_Block_Element_Init_Final_Count.json",
+        "IP_Group_Loop_Block_IP_Group_Loop_Block_Element_LoopBlock1.json",
+        "IP_Group_Loop_Block_IP_Group_Loop_Block_Element_Concat.json",
+        "IP_Group_Loop_Block_IP_Group_Loop_Block_Element_Counter.json",
+        "IP_Group_Loop_Block_IP_Group_Loop_Block_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "IP_Group_Loop_Block_IP_Group_Loop_Block",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "IP_Group_Loop_Block_IP_Group_Loop_Block_PropertySetConfig.json",
+    "SubType": "IP_Group_Loop_Block",
+    "Type": "IP_Group_Loop_Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/IP_Group_Loop_Block/IP_Group_Loop_Block/Procedure",
+    "WebComponentKey": "1f904be3-aefb-14ec-f406-cfbc7dd63c51"
+}

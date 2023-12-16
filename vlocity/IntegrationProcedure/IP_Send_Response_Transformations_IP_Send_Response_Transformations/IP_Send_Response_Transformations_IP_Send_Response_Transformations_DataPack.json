@@ -1,0 +1,30 @@
+{
+    "CustomJavaScript": "IP_Send_Response_Transformations_IP_Send_Response_Transformations_SampleInput.json",
+    "Description": "https://www.youtube.com/watch?v=pv2vJzVyvIU&list=PLZHR2zv1HIDez6HsLnAfJkGDy716Ea6V7&index=16",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "IP_Send_Response_Transformations",
+    "OmniProcessElement": [
+        "IP_Send_Response_Transformations_IP_Send_Response_Transformations_Element_Full_Name.json",
+        "IP_Send_Response_Transformations_IP_Send_Response_Transformations_Element_Garbage_1.json",
+        "IP_Send_Response_Transformations_IP_Send_Response_Transformations_Element_Garbage_2.json",
+        "IP_Send_Response_Transformations_IP_Send_Response_Transformations_Element_Garbage_3.json",
+        "IP_Send_Response_Transformations_IP_Send_Response_Transformations_Element_DataRaptorTransform_Action_1.json",
+        "IP_Send_Response_Transformations_IP_Send_Response_Transformations_Element_DataRaptorTransform_Action_2.json",
+        "IP_Send_Response_Transformations_IP_Send_Response_Transformations_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "IP_Send_Response_Transformations_IP_Send_Response_Transformations",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "IP_Send_Response_Transformations_IP_Send_Response_Transformations_PropertySetConfig.json",
+    "SubType": "IP_Send_Response_Transformations",
+    "Type": "IP_Send_Response_Transformations",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/IP_Send_Response_Transformations/IP_Send_Response_Transformations/Procedure",
+    "WebComponentKey": "e906dd8a-8409-3d02-677d-37d2f1b4bb41"
+}

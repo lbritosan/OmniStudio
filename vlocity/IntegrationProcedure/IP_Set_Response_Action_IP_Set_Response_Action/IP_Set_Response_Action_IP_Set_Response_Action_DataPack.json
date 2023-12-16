@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "IP_Set_Response_Action_IP_Set_Response_Action_SampleInput.json",
+    "Description": "IP_Set_Response_Action",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "IP_Set_Response_Action",
+    "OmniProcessElement": [
+        "IP_Set_Response_Action_IP_Set_Response_Action_Element_Full_Name.json",
+        "IP_Set_Response_Action_IP_Set_Response_Action_Element_Merge_Name.json",
+        "IP_Set_Response_Action_IP_Set_Response_Action_Element_Merge_Name_Using_Array_Element.json",
+        "IP_Set_Response_Action_IP_Set_Response_Action_Element_ResponseResult.json"
+    ],
+    "OmniProcessKey": "IP_Set_Response_Action_IP_Set_Response_Action",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "IP_Set_Response_Action_IP_Set_Response_Action_PropertySetConfig.json",
+    "SubType": "IP_Set_Response_Action",
+    "Type": "IP_Set_Response_Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/IP_Set_Response_Action/IP_Set_Response_Action/Procedure",
+    "WebComponentKey": "9cb3297f-5852-cf1b-73f3-4b3de28b6bb4"
+}

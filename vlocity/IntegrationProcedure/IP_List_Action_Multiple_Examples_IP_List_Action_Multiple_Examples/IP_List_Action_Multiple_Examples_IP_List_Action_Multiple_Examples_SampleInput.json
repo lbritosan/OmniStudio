@@ -1,0 +1,54 @@
+{
+    "ListWithAge_1": [
+        {
+            "External_Id": "11",
+            "Id": "1",
+            "age": "51"
+        },
+        {
+            "External_Id": "12",
+            "Id": "2",
+            "age": "61"
+        },
+        {
+            "External_Id": "14",
+            "Id": "4",
+            "age": "71"
+        }
+    ],
+    "ListWithAge_2": [
+        {
+            "External_Id": "11",
+            "Rec_Id": "1",
+            "age": "51"
+        },
+        {
+            "External_Id": "12",
+            "Rec_Id": "2",
+            "age": "61"
+        },
+        {
+            "External_Id": "14",
+            "Rec_Id": "4",
+            "age": "71"
+        }
+    ],
+    "ListWithName": [
+        {
+            "External_Id": "11",
+            "Id": "1",
+            "name": "Batman"
+        },
+        {
+            "External_Id": "12",
+            "Id": "2",
+            "name": "Superman"
+        },
+        {
+            "External_Id": "13",
+            "Id": "3",
+            "name": "IronMan"
+        }
+    ],
+    "my_outpur_fields": "age,name"
+}

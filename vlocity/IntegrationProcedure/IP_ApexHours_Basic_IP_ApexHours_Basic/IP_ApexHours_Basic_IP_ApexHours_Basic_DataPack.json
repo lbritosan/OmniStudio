@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "https://www.youtube.com/watch?v=eNxBgHRA4lM",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "IP_ApexHours_Basic",
+    "OmniProcessElement": [
+        "IP_ApexHours_Basic_IP_ApexHours_Basic_Element_SetValue.json",
+        "IP_ApexHours_Basic_IP_ApexHours_Basic_Element_HTTPAction1.json",
+        "IP_ApexHours_Basic_IP_ApexHours_Basic_Element_DataRaptorExtractAction1.json"
+    ],
+    "OmniProcessKey": "IP_ApexHours_Basic_IP_ApexHours_Basic",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "IP_ApexHours_Basic_IP_ApexHours_Basic_PropertySetConfig.json",
+    "SubType": "IP_ApexHours_Basic",
+    "Type": "IP_ApexHours_Basic",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/IP_ApexHours_Basic/IP_ApexHours_Basic/Procedure",
+    "WebComponentKey": "5196a13c-a3df-78a2-1ef7-7f4da42858b3"
+}

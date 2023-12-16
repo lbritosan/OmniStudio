@@ -1,0 +1,81 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "List_Merge_Advance_With_Multi_Group",
+    "OmniProcessId": {
+        "Name": "IP_List_Action_Multiple_Examples",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/IP_List_Action_Multiple_Examples/IP_List_Action_Multiple_Examples/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "advancedMerge": true,
+        "advancedMergeMap": [
+            {
+                "listKey": "ListWithName",
+                "matchingPath": "Id",
+                "normalizeKey": "1"
+            },
+            {
+                "listKey": "ListWithAge_2",
+                "matchingPath": "Rec_Id",
+                "normalizeKey": "1"
+            },
+            {
+                "listKey": "ListWithName",
+                "matchingPath": "External_Id",
+                "normalizeKey": "2"
+            },
+            {
+                "listKey": "ListWithAge_2",
+                "matchingPath": "External_Id",
+                "normalizeKey": "2"
+            }
+        ],
+        "allowMergeNulls": true,
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "dynamicOutputFields": "",
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "filterListFormula": "",
+        "hasPrimary": false,
+        "label": "ListAction1",
+        "mergeFields": [
+            "Id"
+        ],
+        "mergeListsOrder": [
+            "ListWithName",
+            "ListWithAge_2"
+        ],
+        "primaryListKey": "",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "sortBy": [
+        ],
+        "sortInDescendingOrder": false,
+        "updateFieldValue": {
+        },
+        "useFormulas": true
+    },
+    "Type": "List Merge Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/IP_List_Action_Multiple_Examples/IP_List_Action_Multiple_Examples/Procedure/List_Merge_Advance_With_Multi_Group"
+}

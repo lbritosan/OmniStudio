@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "IP_DataRaptor_Actions_IP_DataRaptor_Actions_SampleInput.json",
+    "Description": "https://www.youtube.com/watch?v=LkDfmx72hRg&list=PLZHR2zv1HIDez6HsLnAfJkGDy716Ea6V7&index=15",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "IP_DataRaptor_Actions",
+    "OmniProcessElement": [
+        "IP_DataRaptor_Actions_IP_DataRaptor_Actions_Element_DataRaptorExtract_Action.json",
+        "IP_DataRaptor_Actions_IP_DataRaptor_Actions_Element_DataRaptorTurbo_Action.json",
+        "IP_DataRaptor_Actions_IP_DataRaptor_Actions_Element_Full_Name.json",
+        "IP_DataRaptor_Actions_IP_DataRaptor_Actions_Element_DataRaptorTransform_Action.json",
+        "IP_DataRaptor_Actions_IP_DataRaptor_Actions_Element_DataRaptorPost_Action.json"
+    ],
+    "OmniProcessKey": "IP_DataRaptor_Actions_IP_DataRaptor_Actions",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "IP_DataRaptor_Actions_IP_DataRaptor_Actions_PropertySetConfig.json",
+    "SubType": "IP_DataRaptor_Actions",
+    "Type": "IP_DataRaptor_Actions",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/IP_DataRaptor_Actions/IP_DataRaptor_Actions/Procedure",
+    "WebComponentKey": "8adb578c-75a6-2200-082b-6417a1e647a5"
+}

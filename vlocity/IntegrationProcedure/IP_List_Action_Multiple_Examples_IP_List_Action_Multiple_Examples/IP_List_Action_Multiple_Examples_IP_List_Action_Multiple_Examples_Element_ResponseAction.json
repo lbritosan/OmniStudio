@@ -1,0 +1,43 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "ResponseAction",
+    "OmniProcessId": {
+        "Name": "IP_List_Action_Multiple_Examples",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/IP_List_Action_Multiple_Examples/IP_List_Action_Multiple_Examples/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "additionalOutput": {
+            "List_Merge_Advance": "%List_Merge_Advance%",
+            "List_Merge_Advance_With_Multi_Group": "%List_Merge_Advance_With_Multi_Group%",
+            "List_Merge_Primary": "%List_Merge_Primary%",
+            "List_Merge_Simple": "%List_Merge_Simple%",
+            "List_Modify_Dynamic_Output": "%List_Modify_Dynamic_Output%",
+            "List_Modify_Filtered_Output": "%List_Modify_Filtered_Output%",
+            "List_Modify_Update_Field_Output": "%List_Modify_Update_Field_Output%",
+            "List_Sort": "%List_Sort%"
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "ResponseAction1",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "Type": "Response Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/IP_List_Action_Multiple_Examples/IP_List_Action_Multiple_Examples/Procedure/ResponseAction"
+}

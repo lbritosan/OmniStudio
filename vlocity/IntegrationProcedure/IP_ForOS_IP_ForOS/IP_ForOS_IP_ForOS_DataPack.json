@@ -1,0 +1,21 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "IP_ForOS",
+    "OmniProcessElement": "IP_ForOS_IP_ForOS_Element_ResponseAction1.json",
+    "OmniProcessKey": "IP_ForOS_IP_ForOS",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "IP_ForOS_IP_ForOS_PropertySetConfig.json",
+    "SubType": "IP_ForOS",
+    "Type": "IP_ForOS",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/IP_ForOS/IP_ForOS/Procedure",
+    "WebComponentKey": "2bcc57b5-1bd7-7683-f18e-0dfdeefbfe18"
+}
