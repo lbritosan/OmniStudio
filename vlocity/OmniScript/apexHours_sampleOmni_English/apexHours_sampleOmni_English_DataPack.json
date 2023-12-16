@@ -1,0 +1,24 @@
+{
+    "Description": "https://www.youtube.com/watch?v=Po9GLoueMJM&list=PLaGX-30v1lh2QKI-Ud269FUaFiUtebsQ6&index=3",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "OS_SampleOmni",
+    "OmniProcessElement": [
+        "apexHours_sampleOmni_English_Element_SetValues1.json",
+        "apexHours_sampleOmni_English_Element_Step1.json",
+        "apexHours_sampleOmni_English_Element_cfFC_SelectableItems.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "apexHours_sampleOmni_English_PropertySetConfig.json",
+    "SubType": "sampleOmni",
+    "Type": "apexHours",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/apexHours/sampleOmni/English",
+    "WebComponentKey": "c196c2d4-48a5-8c67-700c-69e40dfa82e8"
+}

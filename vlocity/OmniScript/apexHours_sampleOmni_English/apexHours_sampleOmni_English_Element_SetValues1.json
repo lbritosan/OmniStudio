@@ -1,0 +1,55 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetValues1",
+    "OmniProcessId": {
+        "Name": "OS_SampleOmni",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/apexHours/sampleOmni/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "parentObject": {
+                "name": "Apex Hours",
+                "version": "1.0"
+            },
+            "recordId": "001Hp00002ghlAVIAY",
+            "records": [
+                {
+                    "GroupName": "Group3",
+                    "GroupQuantity": 10,
+                    "ShowGroupDetails": false,
+                    "ShowPricelistGroup": true,
+                    "ShowSelectButton": true,
+                    "selected": false
+                },
+                {
+                    "GroupName": "Group4",
+                    "GroupQuantity": 5,
+                    "ShowGroupDetails": false,
+                    "ShowPricelistGroup": true,
+                    "ShowSelectButton": true,
+                    "selected": false
+                }
+            ]
+        },
+        "label": "SetValues1",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/apexHours/sampleOmni/English/SetValues1"
+}

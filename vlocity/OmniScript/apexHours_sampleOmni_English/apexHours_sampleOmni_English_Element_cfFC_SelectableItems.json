@@ -1,0 +1,56 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "cfFC_SelectableItems",
+    "OmniProcessId": {
+        "Name": "OS_SampleOmni",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/apexHours/sampleOmni/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Step1",
+        "OmniProcessId": {
+            "Name": "OS_SampleOmni",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/apexHours/sampleOmni/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/apexHours/sampleOmni/English/Step1",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Step1",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "bStandalone": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+            {
+                "name": "record-id",
+                "source": "%recordId%"
+            },
+            {
+                "name": "parent-data",
+                "source": "true"
+            },
+            {
+                "name": "records",
+                "source": "%records%"
+            },
+            {
+                "name": "parent-attribute",
+                "source": "%parentObject%"
+            }
+        ],
+        "hide": false,
+        "label": "cfFC_SelectableItems",
+        "lwcName": "cfFC_SelectableItems",
+        "show": null
+    },
+    "Type": "Custom Lightning Web Component",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/apexHours/sampleOmni/English/cfFC_SelectableItems"
+}
