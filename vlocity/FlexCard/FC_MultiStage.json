@@ -1,0 +1,76 @@
+{
+    "useVlocityTriggers": true,
+    "status": "Complete",
+    "processMultiple": true,
+    "primaryDataPackType": "FlexCard",
+    "primaryDataPackKey": "84f3041cbe4e715bc4c497bf378a1add",
+    "maxDepth": -1,
+    "isChunked": false,
+    "ignoreAllErrors": false,
+    "forceQueueable": false,
+    "forceOldDataModel": null,
+    "dataPacks": [
+        {
+            "VlocityPrimarySourceId": "0koHp0000000e5OIAQ",
+            "VlocityPreviousPageKey": null,
+            "VlocityMultiPackParentKey": null,
+            "VlocityDepthFromPrimary": 0,
+            "VlocityDataPackType": "FlexCard",
+            "VlocityDataPackStatus": "Success",
+            "VlocityDataPackRelationshipType": "Primary",
+            "VlocityDataPackRecords": [],
+            "VlocityDataPackParents": [],
+            "VlocityDataPackName": "FC_MultiStage",
+            "VlocityDataPackMessage": null,
+            "VlocityDataPackLabel": "FlexCard",
+            "VlocityDataPackKey": "84f3041cbe4e715bc4c497bf378a1add",
+            "VlocityDataPackIsNotSupported": false,
+            "VlocityDataPackIsIncluded": true,
+            "VlocityDataPackData": {
+                "Id": "0koHp0000000e5OIAQ",
+                "VlocityDataPackRelationshipType": "Primary",
+                "VlocityDataPackLabel": "FlexCard",
+                "OmniUiCard": [
+                    {
+                        "Description": "https://www.youtube.com/watch?v=F8tUx-z6emw&list=PLcRnP4kEnPHoWTpSjXm0oP-fDWyPNyOG6&index=3",
+                        "AuthorName": "LBS",
+                        "OmniUiCardKey": "FC_MultiStage/LBS/1.0",
+                        "OverrideKey": "",
+                        "IsActive": true,
+                        "DataSourceConfig": "{\"dataSource\":{\"type\":\"DataRaptor\",\"value\":{\"dsDelay\":\"\",\"bundle\":\"DR_GetOpportunityStageById\",\"bundleType\":\"\",\"inputMap\":{\"Key\":\"{recordId}\"},\"jsonMap\":\"{\\\"recordId\\\":\\\"{recordId}\\\"}\",\"resultVar\":\"\"},\"orderBy\":{\"name\":\"\",\"isReverse\":\"\"},\"contextVariables\":[{\"name\":\"recordId\",\"val\":\"006Hp000015xv1vIAA\",\"id\":2}]}}",
+                        "VlocityDataPackType": "SObject",
+                        "SampleDataSourceResponse": "[{\"Stage\":\"Closed Won\"}]",
+                        "ClonedFromOmniUiCardKey": "",
+                        "VersionNumber": 1,
+                        "Namespace": "",
+                        "Name": "FC_MultiStage",
+                        "IsTrackingEnabled": false,
+                        "VlocityRecordSObjectType": "OmniUiCard",
+                        "VlocityRecordSourceKey": "VlocityRecordSourceKey:0koHp0000000e5OIAQ",
+                        "PropertySetConfig": "{\"states\":[{\"fields\":[],\"conditions\":{\"id\":\"state-condition-object\",\"isParent\":true,\"group\":[{\"id\":\"state-new-condition-0\",\"field\":\"Stage\",\"operator\":\"==\",\"value\":\"Closed Won\",\"type\":\"custom\",\"hasMergeField\":false}]},\"definedActions\":{\"actions\":[]},\"name\":\"Active\",\"isSmartAction\":false,\"smartAction\":{},\"styleObject\":{\"padding\":[{\"type\":\"around\",\"size\":\"x-small\"}],\"margin\":[{\"type\":\"bottom\",\"size\":\"x-small\"}],\"container\":{\"class\":\"slds-card\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"sizeClass\":\"slds-size_12-of-12\",\"class\":\"slds-card slds-p-around_x-small slds-m-bottom_x-small\"},\"components\":{\"layer-0\":{\"children\":[{\"name\":\"Icon\",\"element\":\"flexIcon\",\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"stateIndex\":1,\"class\":\"slds-col \",\"property\":{\"record\":\"{record}\",\"card\":\"{card}\",\"iconType\":\"Salesforce SVG\",\"iconName\":\"action:approval\",\"size\":\"large\",\"extraclass\":\"slds-icon_container slds-icon-action-approval slds-icon_container--circle\",\"variant\":\"inverse\",\"imgsrc\":\"\"},\"type\":\"element\",\"styleObject\":{\"sizeClass\":\"slds-size_12-of-12 \",\"padding\":[],\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"\",\"width\":\"\",\"color\":\"\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"center\",\"color\":\"\"},\"inlineStyle\":\"\",\"class\":\"slds-text-align_center \",\"style\":\"      \\n         \"},\"elementLabel\":\"Icon-0\",\"styleObjects\":[{\"key\":0,\"conditions\":\"default\",\"styleObject\":{\"sizeClass\":\"slds-size_12-of-12 \",\"padding\":[],\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"\",\"width\":\"\",\"color\":\"\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"center\",\"color\":\"\"},\"inlineStyle\":\"\",\"class\":\"slds-text-align_center \",\"style\":\"      \\n         \"},\"label\":\"Default\",\"name\":\"Default\",\"conditionString\":\"\",\"draggable\":false}]}]}},\"childCards\":[],\"actions\":[],\"omniscripts\":[],\"documents\":[]},{\"fields\":[],\"conditions\":{\"id\":\"state-condition-object\",\"isParent\":true,\"group\":[{\"id\":\"state-new-condition-0\",\"field\":\"Stage\",\"operator\":\"==\",\"value\":\"Closed Lost\",\"type\":\"custom\",\"hasMergeField\":false}]},\"definedActions\":{\"actions\":[]},\"name\":\"Active\",\"isSmartAction\":false,\"smartAction\":{},\"styleObject\":{\"padding\":[{\"type\":\"around\",\"size\":\"x-small\"}],\"margin\":[{\"type\":\"bottom\",\"size\":\"x-small\"}],\"container\":{\"class\":\"slds-card\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"sizeClass\":\"slds-size_12-of-12\",\"class\":\"slds-card slds-p-around_x-small slds-m-bottom_x-small\"},\"components\":{\"layer-0\":{\"children\":[{\"name\":\"Icon\",\"element\":\"flexIcon\",\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"stateIndex\":2,\"class\":\"slds-col \",\"property\":{\"record\":\"{record}\",\"card\":\"{card}\",\"iconType\":\"Salesforce SVG\",\"iconName\":\"action:close\",\"size\":\"large\",\"extraclass\":\"slds-icon_container slds-icon-action-close slds-icon_container--circle\",\"variant\":\"inverse\",\"imgsrc\":\"\"},\"type\":\"element\",\"styleObject\":{\"sizeClass\":\"slds-size_12-of-12 \",\"padding\":[],\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"\",\"width\":\"\",\"color\":\"\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"center\",\"color\":\"\"},\"inlineStyle\":\"\",\"class\":\"slds-text-align_center \",\"style\":\"      \\n         \"},\"elementLabel\":\"Icon-0\",\"styleObjects\":[{\"key\":0,\"conditions\":\"default\",\"styleObject\":{\"sizeClass\":\"slds-size_12-of-12 \",\"padding\":[],\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"\",\"width\":\"\",\"color\":\"\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"center\",\"color\":\"\"},\"inlineStyle\":\"\",\"class\":\"slds-text-align_center \",\"style\":\"      \\n         \"},\"label\":\"Default\",\"name\":\"Default\",\"conditionString\":\"\",\"draggable\":false}]}]}},\"childCards\":[],\"actions\":[],\"omniscripts\":[],\"documents\":[]},{\"fields\":[],\"conditions\":{\"id\":\"state-condition-object\",\"isParent\":true,\"group\":[]},\"definedActions\":{\"actions\":[]},\"name\":\"Active\",\"isSmartAction\":false,\"smartAction\":{},\"styleObject\":{\"padding\":[{\"type\":\"around\",\"size\":\"x-small\"}],\"margin\":[{\"type\":\"bottom\",\"size\":\"x-small\"}],\"container\":{\"class\":\"slds-card\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"sizeClass\":\"slds-size_12-of-12\",\"class\":\"slds-card slds-p-around_x-small slds-m-bottom_x-small\"},\"components\":{\"layer-0\":{\"children\":[{\"name\":\"Icon\",\"element\":\"flexIcon\",\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"stateIndex\":0,\"class\":\"slds-col \",\"property\":{\"record\":\"{record}\",\"card\":\"{card}\",\"iconType\":\"Salesforce SVG\",\"iconName\":\"standard:today\",\"size\":\"large\",\"extraclass\":\"slds-icon_container slds-icon-standard-today \",\"variant\":\"inverse\",\"imgsrc\":\"\"},\"type\":\"element\",\"styleObject\":{\"sizeClass\":\"slds-size_12-of-12 \",\"padding\":[],\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"\",\"width\":\"\",\"color\":\"\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"center\",\"color\":\"\"},\"inlineStyle\":\"\",\"class\":\"slds-text-align_center \",\"style\":\"      \\n         \"},\"elementLabel\":\"Icon-0\",\"styleObjects\":[{\"key\":0,\"conditions\":\"default\",\"styleObject\":{\"sizeClass\":\"slds-size_12-of-12 \",\"padding\":[],\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"\",\"width\":\"\",\"color\":\"\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"center\",\"color\":\"\"},\"inlineStyle\":\"\",\"class\":\"slds-text-align_center \",\"style\":\"      \\n         \"},\"label\":\"Default\",\"name\":\"Default\",\"conditionString\":\"\",\"draggable\":false}]}]}},\"childCards\":[],\"actions\":[],\"omniscripts\":[],\"documents\":[]}],\"dataSource\":{\"type\":\"DataRaptor\",\"value\":{\"dsDelay\":\"\",\"bundle\":\"DR_GetOpportunityStageById\",\"bundleType\":\"\",\"inputMap\":{\"Key\":\"{recordId}\"},\"jsonMap\":\"{\\\"recordId\\\":\\\"{recordId}\\\"}\",\"resultVar\":\"\"},\"orderBy\":{\"name\":\"\",\"isReverse\":\"\"},\"contextVariables\":[{\"name\":\"recordId\",\"val\":\"006Hp000015xv1vIAA\",\"id\":2}]},\"title\":\"FC_MultiStage\",\"enableLwc\":true,\"isFlex\":true,\"theme\":\"slds\",\"selectableMode\":\"Multi\",\"xmlObject\":{\"targetConfigs\":\"PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icmVjb3JkSWQiIHR5cGU9IlN0cmluZyIvPgogICAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgICAgPHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==\",\"targets\":{\"target\":[\"lightning__RecordPage\",\"lightning__AppPage\",\"lightning__HomePage\"]}},\"xmlJson\":[{\"@attributes\":{\"targets\":\"lightning__AppPage\"},\"property\":[{\"@attributes\":{\"name\":\"debug\",\"type\":\"Boolean\"}},{\"@attributes\":{\"name\":\"recordId\",\"type\":\"String\"}}]},{\"@attributes\":{\"targets\":\"lightning__RecordPage\"},\"property\":[{\"@attributes\":{\"name\":\"debug\",\"type\":\"Boolean\"}}]}],\"lwc\":{\"DeveloperName\":\"cfFC_MultiStage_1_LBS\",\"Id\":\"0RbHp000001hTUzKAM\",\"MasterLabel\":\"cfFC_MultiStage_1_LBS\",\"NamespacePrefix\":\"c\",\"ManageableState\":\"unmanaged\"}}",
+                        "OmniUiCardType": "Parent",
+                        "Id": "0koHp0000000e5OIAQ",
+                        "VlocityDataPackIsIncluded": true,
+                        "StylingConfiguration": "",
+                        "UniqueName": ""
+                    }
+                ],
+                "VlocityDataPackType": "FlexCard",
+                "VlocityDataPackKey": "84f3041cbe4e715bc4c497bf378a1add"
+            },
+            "VlocityDataPackAllRelationships": {
+                "28ae5e01a324ececd537ae71b7061780": "Reference by Name"
+            },
+            "DataPackAttachmentSize": 10856,
+            "DataPackAttachmentParentId": "0ncHp00000052GRIAY",
+            "DataPackAttachmentId": "00PHp00001ghHWdMAM",
+            "ActivationStatus": "Ready"
+        }
+    ],
+    "dataPackId": "0ncHp00000052GRIAY",
+    "alreadyExportedKeys": [],
+    "name": "FC_MultiStage",
+    "description": "",
+    "version": 1,
+    "Status": "Complete"
+}
