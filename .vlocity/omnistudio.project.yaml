@@ -91,6 +91,18 @@ VlocityDataPackKeys:
     - IntegrationProcedure/team_saveCaseDetails
     - IntegrationProcedure/team_saveContactDetails
     - IntegrationProcedure/team_savePrimaryContactDetails
+    - OmniScript/apexHours_sampleOmni_English
+    - OmniScript/OS_ActionElements_OS_ActionElements_English
+    - OmniScript/OS_BasicInputElement_OS_BasicInputElement_English
+    - OmniScript/OS_DataRaptorActions_OS_DataRaptorActions_English
+    - OmniScript/OS_DisplayElements_OS_DisplayElements_English
+    - OmniScript/OS_EditBlock_OS_EditBlock_English
+    - OmniScript/OS_First_OS_First_English
+    - OmniScript/OS_InputElements_SelectMultiRadio_OS_InputElements_SelectMultiRadio_English
+    - OmniScript/OS_IP_Action_OS_IP_Action_English
+    - OmniScript/OS_LookupInputElement_OS_LookupInputElement_English
+    - OmniScript/OS_SetErrorAction_OS_SetErrorAction_English
+    - OmniScript/OS_SetValues_OS_SetValues_English
     - VlocityCard/FC_AccountDetails
     - VlocityCard/FC_Block_State_Elements
     - VlocityCard/FC_ChildContacts
@@ -115,7 +127,7 @@ VlocityDataPackKeys:
     - VlocityCard/sampleWeatherForecast
     - VlocityCard/teamCases335
     - remoteSiteSettings/ChuckNorrisAPI.remoteSite
-    - OmniScript/apexHours_sampleOmni_English
+    - DataRaptor/DR_Get5Accounts
 VlocityTypesToFetch:
     - DataRaptor
     - IntegrationProcedure
