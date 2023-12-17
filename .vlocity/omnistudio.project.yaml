@@ -10,6 +10,8 @@ VlocityDataPackKeys:
     - DataRaptor/DR_faaFillCertificatePDF
     - DataRaptor/DR_FOR_IP_Get_Contacts_Extract
     - DataRaptor/DR_FOR_IP_Transform
+    - DataRaptor/DR_Get5Accounts
+    - DataRaptor/DR_GetOpportunityStageById
     - DataRaptor/DR_IS_LookupExample
     - DataRaptor/DR_MoneyHeistTeam_Contacts
     - DataRaptor/DR_MultiObjectMultipleRecordsInsert
@@ -127,7 +129,8 @@ VlocityDataPackKeys:
     - VlocityCard/sampleWeatherForecast
     - VlocityCard/teamCases335
     - remoteSiteSettings/ChuckNorrisAPI.remoteSite
-    - DataRaptor/DR_Get5Accounts
+    - VlocityCard/FC_MultiStage
+    - VlocityCard/FC_SelectableItemsChild
 VlocityTypesToFetch:
     - DataRaptor
     - IntegrationProcedure
