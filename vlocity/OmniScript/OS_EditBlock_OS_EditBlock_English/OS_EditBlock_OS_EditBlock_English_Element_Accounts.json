@@ -1,0 +1,73 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "Accounts",
+    "OmniProcessId": {
+        "Name": "OS_EditBlock",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/OS_EditBlock/OS_EditBlock/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Step1",
+        "OmniProcessId": {
+            "Name": "OS_EditBlock",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/OS_EditBlock/OS_EditBlock/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/OS_EditBlock/OS_EditBlock/English/Step1",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Step1",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "allowClear": false,
+        "allowDelete": false,
+        "allowEdit": true,
+        "allowNew": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "deleteLabel": "Delete",
+        "editLabel": "Edit",
+        "elementName": "",
+        "hide": false,
+        "label": "Accounts",
+        "maxDisplay": 3,
+        "mode": "Table",
+        "newLabel": "New",
+        "selectCheckBox": "",
+        "selectMode": "Single",
+        "selectSobject": "Account",
+        "show": null,
+        "sobjectMapping": [
+            {
+                "duplicateKey": true,
+                "osElement": "Id",
+                "sObjectField": "Id"
+            },
+            {
+                "duplicateKey": false,
+                "osElement": "Name",
+                "sObjectField": "Name"
+            },
+            {
+                "duplicateKey": false,
+                "osElement": "Phone",
+                "sObjectField": "Phone"
+            }
+        ],
+        "sumElement": "",
+        "svgIcon": "user",
+        "svgSprite": "utility",
+        "valueSvgMap": [
+        ]
+    },
+    "Type": "Edit Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/OS_EditBlock/OS_EditBlock/English/Accounts"
+}

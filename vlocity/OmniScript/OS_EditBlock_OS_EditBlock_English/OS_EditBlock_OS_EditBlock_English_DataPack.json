@@ -1,0 +1,28 @@
+{
+    "Description": "https://www.youtube.com/watch?v=2k_RB2PNQAA&list=PLcRnP4kEnPHoWTpSjXm0oP-fDWyPNyOG6&index=1",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "OS_EditBlock",
+    "OmniProcessElement": [
+        "OS_EditBlock_OS_EditBlock_English_Element_DR_Fetch5AccountRecords.json",
+        "OS_EditBlock_OS_EditBlock_English_Element_Step1.json",
+        "OS_EditBlock_OS_EditBlock_English_Element_Accounts.json",
+        "OS_EditBlock_OS_EditBlock_English_Element_Id.json",
+        "OS_EditBlock_OS_EditBlock_English_Element_Name.json",
+        "OS_EditBlock_OS_EditBlock_English_Element_Phone.json",
+        "OS_EditBlock_OS_EditBlock_English_Element_Edit.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "OS_EditBlock_OS_EditBlock_English_PropertySetConfig.json",
+    "SubType": "OS_EditBlock",
+    "Type": "OS_EditBlock",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/OS_EditBlock/OS_EditBlock/English",
+    "WebComponentKey": "e3195394-6916-235b-3c07-e0ce11a01e81"
+}
