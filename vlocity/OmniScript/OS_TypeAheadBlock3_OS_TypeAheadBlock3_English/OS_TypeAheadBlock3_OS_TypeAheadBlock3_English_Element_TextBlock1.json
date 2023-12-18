@@ -1,0 +1,50 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "TextBlock1",
+    "OmniProcessId": {
+        "Name": "OS_TypeAheadBlock3",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/OS_TypeAheadBlock3/OS_TypeAheadBlock3/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Step1",
+        "OmniProcessId": {
+            "Name": "OS_TypeAheadBlock3",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/OS_TypeAheadBlock3/OS_TypeAheadBlock3/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/OS_TypeAheadBlock3/OS_TypeAheadBlock3/English/Step1",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Step1",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock1",
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "null",
+                        "field": "Step1:TypeAhead1-Block:data:places:place name"
+                    }
+                ]
+            }
+        },
+        "text": "<p><strong>Place Name:</strong> %Step1:TypeAhead1-Block:data:places:place name%</p>\n<p><strong>State Name:</strong> %Step1:TypeAhead1-Block:data:places:state%</p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/OS_TypeAheadBlock3/OS_TypeAheadBlock3/English/TextBlock1"
+}

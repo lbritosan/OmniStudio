@@ -1,0 +1,25 @@
+{
+    "Description": "https://www.youtube.com/watch?v=L0dvqO4nN0g&list=PLcRnP4kEnPHoWTpSjXm0oP-fDWyPNyOG6&index=6  Code: 96782",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "OS_TypeAheadBlock3",
+    "OmniProcessElement": [
+        "OS_TypeAheadBlock3_OS_TypeAheadBlock3_English_Element_Step1.json",
+        "OS_TypeAheadBlock3_OS_TypeAheadBlock3_English_Element_TypeAhead1.json",
+        "OS_TypeAheadBlock3_OS_TypeAheadBlock3_English_Element_HTTPAction1.json",
+        "OS_TypeAheadBlock3_OS_TypeAheadBlock3_English_Element_TextBlock1.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "OS_TypeAheadBlock3_OS_TypeAheadBlock3_English_PropertySetConfig.json",
+    "SubType": "OS_TypeAheadBlock3",
+    "Type": "OS_TypeAheadBlock3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/OS_TypeAheadBlock3/OS_TypeAheadBlock3/English",
+    "WebComponentKey": "79bffcb8-67a5-7f26-0bf4-a008fc1923a3"
+}
