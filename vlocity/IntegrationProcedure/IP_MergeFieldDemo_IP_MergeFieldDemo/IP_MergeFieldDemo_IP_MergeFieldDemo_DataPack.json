@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "https://www.youtube.com/watch?v=iFKytAfAxZw&list=PLcRnP4kEnPHoWTpSjXm0oP-fDWyPNyOG6&index=4",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "IP_MergeFieldDemo",
+    "OmniProcessElement": [
+        "IP_MergeFieldDemo_IP_MergeFieldDemo_Element_getSingleContactDetails.json",
+        "IP_MergeFieldDemo_IP_MergeFieldDemo_Element_getRelatedParentName.json",
+        "IP_MergeFieldDemo_IP_MergeFieldDemo_Element_SendAccountNameResponse.json"
+    ],
+    "OmniProcessKey": "IP_MergeFieldDemo_IP_MergeFieldDemo",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "IP_MergeFieldDemo_IP_MergeFieldDemo_PropertySetConfig.json",
+    "SubType": "IP_MergeFieldDemo",
+    "Type": "IP_MergeFieldDemo",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/IP_MergeFieldDemo/IP_MergeFieldDemo/Procedure",
+    "WebComponentKey": "3ee38cb6-1a9f-d3d5-e61f-7f2717d51361"
+}

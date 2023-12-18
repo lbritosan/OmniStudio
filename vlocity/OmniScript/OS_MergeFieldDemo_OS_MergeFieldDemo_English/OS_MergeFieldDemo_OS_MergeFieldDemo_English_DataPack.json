@@ -1,0 +1,24 @@
+{
+    "Description": "https://www.youtube.com/watch?v=iFKytAfAxZw&list=PLcRnP4kEnPHoWTpSjXm0oP-fDWyPNyOG6&index=4",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "OS_MergeFieldDemo",
+    "OmniProcessElement": [
+        "OS_MergeFieldDemo_OS_MergeFieldDemo_English_Element_Step1.json",
+        "OS_MergeFieldDemo_OS_MergeFieldDemo_English_Element_DataRaptorExtractAction1.json",
+        "OS_MergeFieldDemo_OS_MergeFieldDemo_English_Element_TextBlock1.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "OS_MergeFieldDemo_OS_MergeFieldDemo_English_PropertySetConfig.json",
+    "SubType": "OS_MergeFieldDemo",
+    "Type": "OS_MergeFieldDemo",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/OS_MergeFieldDemo/OS_MergeFieldDemo/English",
+    "WebComponentKey": "68aefe6d-ab36-522e-3ad2-604984676b6a"
+}
