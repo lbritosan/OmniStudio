@@ -109,6 +109,7 @@ VlocityDataPackKeys:
     - OmniScript/OS_MergeFieldDemo_OS_MergeFieldDemo_English
     - OmniScript/OS_SetErrorAction_OS_SetErrorAction_English
     - OmniScript/OS_SetValues_OS_SetValues_English
+    - OmniScript/OS_TypeAheadBlock3_OS_TypeAheadBlock3_English
     - VlocityCard/FC_AccountDetails
     - VlocityCard/FC_Block_State_Elements
     - VlocityCard/FC_ChildContacts
@@ -128,7 +129,6 @@ VlocityDataPackKeys:
     - VlocityCard/sampleAccountHOWs
     - VlocityCard/sampleCases
     - VlocityCard/sampleCasesParent
-    - VlocityCard/sampleContacts
     - VlocityCard/sampleContactsHOWs
     - VlocityCard/sampleContactsParent
     - VlocityCard/sampleContactsParentHOWs
@@ -136,6 +136,7 @@ VlocityDataPackKeys:
     - VlocityCard/sampleWeatherForecast
     - VlocityCard/teamCases335
     - classes/MyGlobalClassInterface_Omnistudio.cls
+    - classes/MyPicklistOptions.cls
     - lwc/apexHoursSampleOmniEnglish
     - lwc/cfFC_AccountDetails
     - lwc/cfFC_AccountDetails_1_LBS
@@ -213,7 +214,7 @@ VlocityDataPackKeys:
     - lwc/teamUpdateAccountPrimaryContactEnglish
     - lwc/updateAccountDetailsEnglish
     - remoteSiteSettings/ChuckNorrisAPI.remoteSite
-    - classes/MyPicklistOptions.cls
+    - lwc/oS_TypeAheadBlock3OS_TypeAheadBlock3English
 VlocityTypesToFetch:
     - DataRaptor
     - IntegrationProcedure
