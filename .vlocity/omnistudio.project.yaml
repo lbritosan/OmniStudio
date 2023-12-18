@@ -32,6 +32,7 @@ VlocityDataPackKeys:
     - DataRaptor/DR_Extract_ReusableCompanyMailingAddress
     - DataRaptor/sampleGetAccountContactDetails
     - DataRaptor/sampleGetPriContactDetails
+    - DataRaptor/DR_GetOpportunityStageById
     - DataRaptor/DR_Extract_GetContact
     - DataRaptor/DR_TurboExtract_GetContactDetails
     - DataRaptor/DR_SingleObjectMultiRecordInsert
@@ -56,6 +57,9 @@ VlocityDataPackKeys:
     - DataRaptor/DR_Transform_JSON_To_XML
     - DataRaptor/DR_Transform_ObjectToMultipleSObjectFormation
     - DataRaptor/DR_AccountTurboDataRaptor
+    - DataRaptor/DR_Get5Accounts
+    - DataRaptor/DR_GetAccountById
+    - DataRaptor/DR_GetSingleContact
     - IntegrationProcedure/IP_Set_Response_Action_IP_Set_Response_Action
     - IntegrationProcedure/IP_FC_AsDataSource_IP_FC_AsDataSource
     - IntegrationProcedure/IP_DataRaptor_Actions_IP_DataRaptor_Actions
@@ -91,7 +95,20 @@ VlocityDataPackKeys:
     - IntegrationProcedure/IP_Send_Response_Transformations_IP_Send_Response_Transformations
     - IntegrationProcedure/IP_Delete_Action_IP_Delete_Action
     - IntegrationProcedure/IP_List_Action_Multiple_Examples_IP_List_Action_Multiple_Examples
+    - IntegrationProcedure/IP_MergeFieldDemo_IP_MergeFieldDemo
+    - OmniScript/OS_LookupInputElement_OS_LookupInputElement_English
+    - OmniScript/OS_SetErrorAction_OS_SetErrorAction_English
+    - OmniScript/OS_ActionElements_OS_ActionElements_English
+    - OmniScript/OS_InputElements_SelectMultiRadio_OS_InputElements_SelectMultiRadio_English
+    - OmniScript/OS_DisplayElements_OS_DisplayElements_English
+    - OmniScript/OS_IP_Action_OS_IP_Action_English
+    - OmniScript/OS_SetValues_OS_SetValues_English
+    - OmniScript/OS_DataRaptorActions_OS_DataRaptorActions_English
+    - OmniScript/OS_First_OS_First_English
+    - OmniScript/OS_BasicInputElement_OS_BasicInputElement_English
     - OmniScript/apexHours_sampleOmni_English
+    - OmniScript/OS_EditBlock_OS_EditBlock_English
+    - OmniScript/OS_MergeFieldDemo_OS_MergeFieldDemo_English
     - VlocityCard/FC_Custom_DataSource
     - VlocityCard/FC_IP_AsDataSource
     - VlocityCard/FC_SOQL_DataSource
@@ -112,10 +129,89 @@ VlocityDataPackKeys:
     - VlocityCard/FC_Field_text_Image_Icon_Elements
     - VlocityCard/FC_ParentFlexCard
     - VlocityCard/FC_ChildFlexCard
+    - VlocityCard/FC_MultiStage
     - VlocityCard/FC_ChildContacts
     - VlocityCard/FC_Parent_Accounts
     - VlocityCard/FC_SelectableItems
+    - VlocityCard/FC_SelectableItemsChild
+    - VlocityCard/FC_MergeFieldDemo
     - remoteSiteSettings/ChuckNorrisAPI.remoteSite
+    - lwc/cfSampleWeather
+    - lwc/cfTeamContactsParent_1_Salesforce
+    - lwc/cfFC_AccountDetails
+    - lwc/cfFC_ChildFlexCard_1_LBS
+    - lwc/cfSampleCasesParent
+    - lwc/cfTeamCases335_1_Salesforce
+    - lwc/teamUpdateAccountPrimaryContactEnglish
+    - lwc/sampleEditAccountEnglish
+    - lwc/cfFSCTransactionDisputeManagementShowCustomerInformation
+    - lwc/apexHoursSampleOmniEnglish
+    - lwc/cfSampleAccount
+    - lwc/cfTeamContactsParent
+    - lwc/cfSampleContactsParent
+    - lwc/cfSampleCases_1_Salesforce
+    - lwc/updateAccountDetailsEnglish
+    - lwc/cfTeamStarterWeatherForecast_1_Salesforce
+    - lwc/cfFC_ChildFlexCard
+    - lwc/cfFC_ParentFlexCard
+    - lwc/sampleUpdateAccountPrimaryContactEnglish
+    - lwc/cfFC_MultiStage_1_LBS
+    - lwc/cfFC_MergeFieldDemo_1_LBS
+    - lwc/cfFC_DataRaptorAsDataSource_1_Oto1Code_LBS
+    - lwc/cfFC_ChildContacts_1_LBS
+    - lwc/reusableSampleEnglish
+    - lwc/cfSampleContacts_1_Salesforce
+    - lwc/oS_DataRaptorActionsOS_DataRaptorActionsEnglish
+    - lwc/cfFC_Block_State_Elements
+    - lwc/cfFC_Block_State_Elements_1_Oto1_LBS
+    - lwc/docGenerationSampleFndSingleDocxServersideLwcEnglish
+    - lwc/docGenerationSampleFndSingleDocxLwcEnglish
+    - lwc/oS_ActionElementsOS_ActionElementsEnglish
+    - lwc/cfFC_Custom_DataSource_1_Oto1Code_LBS
+    - lwc/oS_BasicInputElementOS_BasicInputElementEnglish
+    - lwc/cfSampleCases
+    - lwc/cfTeamCases335
+    - lwc/sampleEditContactEnglish
+    - lwc/oS_SetErrorActionOS_SetErrorActionEnglish
+    - lwc/cfFC_SelectableItems
+    - lwc/cfFC_IP_AsDataSource_1_Oto1Code_LBS
+    - lwc/oS_FirstOS_FirstEnglish
+    - lwc/cfFC_AccountDetails_1_LBS
+    - lwc/cfFC_Parent_Accounts_1_LBS
+    - lwc/cfTeamStarterWeather_1_Salesforce
+    - lwc/cfTeamStarterCases_1_Salesforce
+    - lwc/cfTeamStarterContacts_1_Salesforce
+    - lwc/cfTeamStarterWeatherCelsius_1_Salesforce
+    - lwc/cfSampleWeather_1_Salesforce
+    - lwc/sampleEditCaseEnglish
+    - lwc/oS_SetValuesOS_SetValuesEnglish
+    - lwc/cfSampleAccount_1_Salesforce
+    - lwc/cfSampleWeatherForecast_1_Salesforce
+    - lwc/cfSampleWeatherForecast
+    - lwc/cfFC_SOQL_DataSource_1_LBS
+    - lwc/oS_DisplayElementsOS_DisplayElementsEnglish
+    - lwc/oS_LookupInputElementOS_LookupInputElementEnglish
+    - lwc/cfFC_SelectableItemsChild_1_LBS
+    - lwc/cfFC_Field_text_Image_Icon_Elements_1_Oto1_LBS
+    - lwc/cfFC_SelectableItemsChild
+    - lwc/cfSampleContactsParent_1_Salesforce
+    - lwc/cfFC_MultiStage
+    - lwc/cfTeamCasesParent_1_Salesforce
+    - lwc/cfSampleContacts
+    - lwc/cfFC_SOQL_DataSource
+    - lwc/cfSampleContactsHOWs
+    - lwc/cfFC_ChildContacts
+    - lwc/cfTeamAccount335_1_Salesforce
+    - lwc/cfFSCTransactionDisputeManagementDisputeSelectedTransactions
+    - lwc/cfSampleCasesParent_1_Salesforce
+    - lwc/oS_InputElements_SelectMultiRadioOS_InputElements_SelectMultiRadioEnglish
+    - lwc/cfFC_AccountDetails_2_LBS
+    - lwc/cfFC_MergeFieldDemo
+    - lwc/cfFC_SelectableItems_1_LBS
+    - lwc/cfFC_ParentFlexCard_1_LBS
+    - lwc/oS_EditBlockOS_EditBlockEnglish
+    - lwc/oS_MergeFieldDemoOS_MergeFieldDemoEnglish
+    - lwc/oS_IP_ActionOS_IP_ActionEnglish
 VlocityTypesToFetch:
     - DataRaptor
     - IntegrationProcedure
@@ -134,4 +230,5 @@ VlocityTypesToFetch:
     - VlocityUILayout
     - VlocityUITemplate
 SalesforceTypesToFetch:
+    - LightningComponentBundle
     - RemoteSiteSetting
