@@ -110,7 +110,6 @@ VlocityDataPackKeys:
     - OmniScript/OS_SetErrorAction_OS_SetErrorAction_English
     - OmniScript/OS_SetValues_OS_SetValues_English
     - OmniScript/OS_TypeAheadBlock3_OS_TypeAheadBlock3_English
-    - OmniScript/OS_TypeAheadBlockDemo_OS_TypeAheadBlockDemo_English
     - VlocityCard/FC_AccountDetails
     - VlocityCard/FC_Block_State_Elements
     - VlocityCard/FC_ChildContacts
@@ -208,6 +207,7 @@ VlocityDataPackKeys:
     - lwc/oS_SetErrorActionOS_SetErrorActionEnglish
     - lwc/oS_SetValuesOS_SetValuesEnglish
     - lwc/oS_TypeAheadBlock3OS_TypeAheadBlock3English
+    - lwc/oS_TypeAheadBlockDemoOS_TypeAheadBlockDemoEnglish
     - lwc/reusableSampleEnglish
     - lwc/sampleEditAccountEnglish
     - lwc/sampleEditCaseEnglish
@@ -216,7 +216,7 @@ VlocityDataPackKeys:
     - lwc/teamUpdateAccountPrimaryContactEnglish
     - lwc/updateAccountDetailsEnglish
     - remoteSiteSettings/ChuckNorrisAPI.remoteSite
-    - lwc/oS_TypeAheadBlockDemoOS_TypeAheadBlockDemoEnglish
+    - DataRaptor/DR_TypeAheadBlock1
 VlocityTypesToFetch:
     - DataRaptor
     - IntegrationProcedure
