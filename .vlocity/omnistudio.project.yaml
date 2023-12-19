@@ -3,6 +3,7 @@ ignoreDependencies: false
 VlocityDataPackKeys:
     - DataRaptor/DR_AccountTurboDataRaptor
     - DataRaptor/DR_ApexHours_Turbo
+    - DataRaptor/DR_CreateAccountRelatedContact
     - DataRaptor/DR_CreateContact
     - DataRaptor/DR_Extract_AccountDetails
     - DataRaptor/DR_Extract_GetContact
@@ -31,6 +32,7 @@ VlocityDataPackKeys:
     - DataRaptor/DR_Transform_ObjectToMultipleSObjectFormation
     - DataRaptor/DR_TransformFromOS
     - DataRaptor/DR_TurboExtract_GetContactDetails
+    - DataRaptor/DR_TypeAheadBlock1
     - DataRaptor/DR_UpdateUpsertInsertExample
     - DataRaptor/FC_DataRaptorAsDataSource_DR
     - DataRaptor/FOR_IP_CreateContact
@@ -99,6 +101,7 @@ VlocityDataPackKeys:
     - OmniScript/apexHours_sampleOmni_English
     - OmniScript/OS_ActionElements_OS_ActionElements_English
     - OmniScript/OS_BasicInputElement_OS_BasicInputElement_English
+    - OmniScript/OS_CreateContactForAccount_OS_CreateContactForAccount_English
     - OmniScript/OS_DataRaptorActions_OS_DataRaptorActions_English
     - OmniScript/OS_DisplayElements_OS_DisplayElements_English
     - OmniScript/OS_EditBlock_OS_EditBlock_English
@@ -110,10 +113,12 @@ VlocityDataPackKeys:
     - OmniScript/OS_SetErrorAction_OS_SetErrorAction_English
     - OmniScript/OS_SetValues_OS_SetValues_English
     - OmniScript/OS_TypeAheadBlock3_OS_TypeAheadBlock3_English
+    - OmniScript/OS_TypeAheadBlockDemo_OS_TypeAheadBlockDemo_English
     - VlocityCard/FC_AccountDetails
     - VlocityCard/FC_Block_State_Elements
     - VlocityCard/FC_ChildContacts
     - VlocityCard/FC_ChildFlexCard
+    - VlocityCard/FC_CreateContactForAccount
     - VlocityCard/FC_Custom_DataSource
     - VlocityCard/FC_DataRaptorAsDataSource
     - VlocityCard/FC_Field_text_Image_Icon_Elements
@@ -216,7 +221,10 @@ VlocityDataPackKeys:
     - lwc/teamUpdateAccountPrimaryContactEnglish
     - lwc/updateAccountDetailsEnglish
     - remoteSiteSettings/ChuckNorrisAPI.remoteSite
-    - DataRaptor/DR_TypeAheadBlock1
+    - lwc/cfFC_CreateContactForAccount
+    - lwc/cfFC_CreateContactForAccount_1_LBS
+    - lwc/oS_CreateContactForAccountOS_CreateContactForAccountEnglish
+    - lwc/oS_Demo12OS_Demo12English
 VlocityTypesToFetch:
     - DataRaptor
     - IntegrationProcedure
