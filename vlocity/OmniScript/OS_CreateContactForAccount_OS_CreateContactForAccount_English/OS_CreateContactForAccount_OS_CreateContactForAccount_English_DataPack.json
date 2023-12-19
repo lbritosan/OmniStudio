@@ -1,0 +1,27 @@
+{
+    "Description": "https://www.youtube.com/watch?v=iOvULTkt1cc&list=PLcRnP4kEnPHoWTpSjXm0oP-fDWyPNyOG6&index=10",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "OS_CreateContactForAccount",
+    "OmniProcessElement": [
+        "OS_CreateContactForAccount_OS_CreateContactForAccount_English_Element_Step1.json",
+        "OS_CreateContactForAccount_OS_CreateContactForAccount_English_Element_CustomLWC1.json",
+        "OS_CreateContactForAccount_OS_CreateContactForAccount_English_Element_Block1.json",
+        "OS_CreateContactForAccount_OS_CreateContactForAccount_English_Element_Text1.json",
+        "OS_CreateContactForAccount_OS_CreateContactForAccount_English_Element_DataRaptorPostAction1.json",
+        "OS_CreateContactForAccount_OS_CreateContactForAccount_English_Element_NavigateAction1.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "OS_CreateContactForAccount_OS_CreateContactForAccount_English_PropertySetConfig.json",
+    "SubType": "OS_CreateContactForAccount",
+    "Type": "OS_CreateContactForAccount",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/OS_CreateContactForAccount/OS_CreateContactForAccount/English",
+    "WebComponentKey": "03f15831-64d2-cba1-4be7-14f55001fd42"
+}

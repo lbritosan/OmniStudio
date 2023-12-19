@@ -1,21 +1,19 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "DR_Interface_Get5Accounts",
+    "Name": "DataRaptorPostAction1",
     "OmniProcessId": {
-        "Name": "OS_TypeAheadBlockDemo",
+        "Name": "OS_CreateContactForAccount",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcess/OS_TypeAheadBlockDemo/OS_TypeAheadBlockDemo/English",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/OS_CreateContactForAccount/OS_CreateContactForAccount/English",
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "bundle": "DR_Get5Accounts",
+        "bundle": "DR_CreateAccountRelatedContact",
         "businessCategory": "",
         "businessEvent": "",
         "controlWidth": 12,
-        "dataRaptor Input Parameters": [
-        ],
         "enableActionMessage": false,
         "enableDefaultAbort": false,
         "errorMessage": {
@@ -27,12 +25,12 @@
         "failureAbortMessage": "Are you sure?",
         "failureGoBackLabel": "Go Back",
         "failureNextLabel": "Continue",
-        "ignoreCache": false,
         "inProgressMessage": "In Progress",
-        "label": "DR_Interface_Get5Accounts",
+        "label": "DataRaptorPostAction1",
         "message": {
         },
         "postMessage": "Done",
+        "postTransformBundle": "",
         "pubsub": false,
         "redirectNextLabel": "Next",
         "redirectNextWidth": 3,
@@ -41,19 +39,30 @@
         "redirectPreviousWidth": 3,
         "redirectTemplateUrl": "vlcAcknowledge.html",
         "remoteTimeout": 30000,
-        "responseJSONNode": "",
-        "responseJSONPath": "",
-        "show": null,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "Step1:CustomLWC1:Data:accountId"
+                    }
+                ]
+            }
+        },
         "showPersistentComponent": [
             true,
             false
         ],
         "ssm": false,
-        "validationRequired": "Step",
+        "validationRequired": "Submit",
         "wpm": false
     },
-    "Type": "DataRaptor Extract Action",
+    "Type": "DataRaptor Post Action",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/OS_TypeAheadBlockDemo/OS_TypeAheadBlockDemo/English/DR_Interface_Get5Accounts"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/OS_CreateContactForAccount/OS_CreateContactForAccount/English/DataRaptorPostAction1"
 }

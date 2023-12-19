@@ -1,5 +1,5 @@
 {
-    "Description": "https://www.youtube.com/watch?v=n6q4XMQ8TJg&list=PLcRnP4kEnPHoWTpSjXm0oP-fDWyPNyOG6&index=8",
+    "Description": "https://www.youtube.com/watch?v=C6bvEd_2OHs&list=PLcRnP4kEnPHoWTpSjXm0oP-fDWyPNyOG6&index=10",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
     "IsIntegrationProcedure": false,
     "IsMetadataCacheDisabled": false,
@@ -9,9 +9,11 @@
     "Language": "English",
     "Name": "OS_TypeAheadBlockDemo",
     "OmniProcessElement": [
-        "OS_TypeAheadBlockDemo_OS_TypeAheadBlockDemo_English_Element_DR_Interface_Get5Accounts.json",
         "OS_TypeAheadBlockDemo_OS_TypeAheadBlockDemo_English_Element_Step1.json",
-        "OS_TypeAheadBlockDemo_OS_TypeAheadBlockDemo_English_Element_TypeAhead1.json"
+        "OS_TypeAheadBlockDemo_OS_TypeAheadBlockDemo_English_Element_TypeAhead1.json",
+        "OS_TypeAheadBlockDemo_OS_TypeAheadBlockDemo_English_Element_Id.json",
+        "OS_TypeAheadBlockDemo_OS_TypeAheadBlockDemo_English_Element_DataRaptorExtractAction1.json",
+        "OS_TypeAheadBlockDemo_OS_TypeAheadBlockDemo_English_Element_TextBlock1.json"
     ],
     "OmniProcessType": "OmniScript",
     "PropertySetConfig": "OS_TypeAheadBlockDemo_OS_TypeAheadBlockDemo_English_PropertySetConfig.json",
@@ -20,5 +22,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/OS_TypeAheadBlockDemo/OS_TypeAheadBlockDemo/English",
-    "WebComponentKey": "01a33b20-aced-9433-95ca-61c24af31f56"
+    "WebComponentKey": "1104dbe1-68ca-7a1d-67dd-1768c428fa27"
 }

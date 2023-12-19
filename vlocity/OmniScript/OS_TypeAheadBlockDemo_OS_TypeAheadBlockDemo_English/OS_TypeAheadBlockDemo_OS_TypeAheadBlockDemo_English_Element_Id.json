@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "TypeAhead1",
+    "Name": "Id",
     "OmniProcessId": {
         "Name": "OS_TypeAheadBlockDemo",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "Step1",
+        "Name": "TypeAhead1",
         "OmniProcessId": {
             "Name": "OS_TypeAheadBlockDemo",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,53 +17,42 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/OS_TypeAheadBlockDemo/OS_TypeAheadBlockDemo/English/Step1",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/OS_TypeAheadBlockDemo/OS_TypeAheadBlockDemo/English/TypeAhead1",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "Step1",
-    "ParentElementType": "Step",
+    "ParentElementName": "TypeAhead1",
+    "ParentElementType": "Type Ahead Block",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
         "accessibleInFutureSteps": false,
-        "callFrequency": 300,
+        "autocomplete": null,
         "conditionType": "Hide if False",
         "controlWidth": 12,
-        "dataJsonPath": "",
-        "dataProcessorFunction": "",
         "debounceValue": 0,
-        "disableDataFilter": false,
-        "editMode": false,
-        "enableGoogleMapsAutocomplete": false,
-        "enableLookup": false,
-        "googleAddressCountry": "all",
-        "googleMapsAPIKey": "",
-        "googleTransformation": {
-            "administrative_area_level_1": "",
-            "administrative_area_level_2": "",
-            "country": "",
-            "locality": "",
-            "postal_code": "",
-            "street": ""
-        },
+        "defaultValue": null,
+        "disOnTplt": false,
         "help": false,
         "helpText": "",
         "helpTextPos": "",
-        "hideEditButton": true,
-        "hideMap": true,
+        "hide": false,
         "inputWidth": 12,
-        "label": "TypeAhead1",
+        "label": "Id",
+        "mask": "",
         "maxLength": 255,
         "minLength": 0,
-        "newItemLabel": "New",
+        "pattern": "",
+        "placeholder": "",
+        "ptrnErrText": "",
         "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
         "required": false,
         "show": null,
-        "showInputWidth": false,
-        "typeAheadKey": "Name",
-        "useDataJson": false
+        "showInputWidth": false
     },
-    "Type": "Type Ahead Block",
+    "Type": "Text",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/OS_TypeAheadBlockDemo/OS_TypeAheadBlockDemo/English/TypeAhead1"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/OS_TypeAheadBlockDemo/OS_TypeAheadBlockDemo/English/Id"
 }
