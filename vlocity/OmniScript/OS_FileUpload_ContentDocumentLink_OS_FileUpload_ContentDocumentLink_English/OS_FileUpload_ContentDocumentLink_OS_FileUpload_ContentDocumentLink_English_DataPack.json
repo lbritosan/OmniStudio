@@ -1,0 +1,26 @@
+{
+    "Description": "https://www.youtube.com/watch?v=R4pQtkDAGJc&list=PLcRnP4kEnPHoWTpSjXm0oP-fDWyPNyOG6&index=12",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "OS_FileUpload_ContentDocumentLink",
+    "OmniProcessElement": [
+        "OS_FileUpload_ContentDocumentLink_OS_FileUpload_ContentDocumentLink_English_Element_Step1.json",
+        "OS_FileUpload_ContentDocumentLink_OS_FileUpload_ContentDocumentLink_English_Element_Text1.json",
+        "OS_FileUpload_ContentDocumentLink_OS_FileUpload_ContentDocumentLink_English_Element_File1.json",
+        "OS_FileUpload_ContentDocumentLink_OS_FileUpload_ContentDocumentLink_English_Element_DataRaptorPostAction1.json",
+        "OS_FileUpload_ContentDocumentLink_OS_FileUpload_ContentDocumentLink_English_Element_Step2.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "OS_FileUpload_ContentDocumentLink_OS_FileUpload_ContentDocumentLink_English_PropertySetConfig.json",
+    "SubType": "OS_FileUpload_ContentDocumentLink",
+    "Type": "OS_FileUpload_ContentDocumentLink",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/OS_FileUpload_ContentDocumentLink/OS_FileUpload_ContentDocumentLink/English",
+    "WebComponentKey": "0a273a29-7347-d8eb-6864-0289b5a4fcc5"
+}

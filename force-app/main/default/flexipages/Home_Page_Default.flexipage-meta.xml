@@ -68,6 +68,31 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentInstanceProperties>
+                    <name>dir</name>
+                    <value>ltr</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>inline</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>inlineLabel</name>
+                    <value>Launch OS_FileUpload_ContentDocumentLink/OS_FileUpload_ContentDocumentLink</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>inlineVariant</name>
+                    <value>brand</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>layout</name>
+                    <value>lightning</value>
+                </componentInstanceProperties>
+                <componentName>oS_FileUpload_ContentDocumentLinkOS_FileUpload_ContentDocumentLinkEnglish</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>home:assistant</componentName>
             </componentInstance>
         </itemInstances>
