@@ -1,0 +1,23 @@
+{
+    "Description": "https://www.youtube.com/watch?v=UykdBly0JJA&list=PLcRnP4kEnPHoWTpSjXm0oP-fDWyPNyOG6&index=15",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "OS_Launch_OS_Child",
+    "OmniProcessElement": [
+        "OS_Launch_OS_Child_OS_Launch_OS_Child_English_Element_Step1.json",
+        "OS_Launch_OS_Child_OS_Launch_OS_Child_English_Element_TextBlock1.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "OS_Launch_OS_Child_OS_Launch_OS_Child_English_PropertySetConfig.json",
+    "SubType": "OS_Launch_OS_Child",
+    "Type": "OS_Launch_OS_Child",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/OS_Launch_OS_Child/OS_Launch_OS_Child/English",
+    "WebComponentKey": "be5dfdd5-bf89-46d9-848f-355fdc8796a8"
+}

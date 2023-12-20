@@ -1,0 +1,25 @@
+{
+    "Description": "https://www.youtube.com/watch?v=UykdBly0JJA&list=PLcRnP4kEnPHoWTpSjXm0oP-fDWyPNyOG6&index=15",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "OS_LaunchOSFromOS_Pass_ContextId",
+    "OmniProcessElement": [
+        "OS_LaunchOSFromOS_Pass_ContextId_OS_LaunchOSFromOS_Pass_ContextId_English_Element_Step1.json",
+        "OS_LaunchOSFromOS_Pass_ContextId_OS_LaunchOSFromOS_Pass_ContextId_English_Element_TextBlock1.json",
+        "OS_LaunchOSFromOS_Pass_ContextId_OS_LaunchOSFromOS_Pass_ContextId_English_Element_Text1.json",
+        "OS_LaunchOSFromOS_Pass_ContextId_OS_LaunchOSFromOS_Pass_ContextId_English_Element_NavigateAction1.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "OS_LaunchOSFromOS_Pass_ContextId_OS_LaunchOSFromOS_Pass_ContextId_English_PropertySetConfig.json",
+    "SubType": "OS_LaunchOSFromOS_Pass_ContextId",
+    "Type": "OS_LaunchOSFromOS_Pass_ContextId",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/OS_LaunchOSFromOS_Pass_ContextId/OS_LaunchOSFromOS_Pass_ContextId/English",
+    "WebComponentKey": "59efbeb1-9f0e-9c82-3bed-41702cc070a3"
+}

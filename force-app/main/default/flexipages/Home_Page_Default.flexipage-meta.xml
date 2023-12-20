@@ -13,6 +13,31 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>inlineLabel</name>
+                    <value>Launch OS_LaunchOSFromOS_Pass_ContextId/OS_LaunchOSFromOS_Pass_ContextId</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>inlineVariant</name>
+                    <value>brand</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>layout</name>
+                    <value>lightning</value>
+                </componentInstanceProperties>
+                <componentName>oS_LaunchOSFromOS_Pass_ContextIdOS_LaunchOSFromOS_Pass_ContextIdEnglish</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>dir</name>
+                    <value>ltr</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>inline</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>inlineLabel</name>
                     <value>Launch OS_Demo12/OS_Demo12</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>

@@ -1,0 +1,43 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "NavigateAction1",
+    "OmniProcessId": {
+        "Name": "OS_LaunchOSFromOS_Pass_ContextId",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/OS_LaunchOSFromOS_Pass_ContextId/OS_LaunchOSFromOS_Pass_ContextId/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "businessCategory": "",
+        "businessEvent": "",
+        "controlWidth": 12,
+        "iconName": "",
+        "iconPosition": "left",
+        "iconVariant": "",
+        "label": "NavigateAction1",
+        "loginAction": "login",
+        "message": {
+        },
+        "objectAction": "home",
+        "pubsub": false,
+        "recordAction": "view",
+        "replace": false,
+        "show": null,
+        "ssm": false,
+        "targetFilter": "Recent",
+        "targetId": "%ContextId%",
+        "targetLWC": "c:OS_Launch_OS_ChildOS_Launch_OS_ChildEnglish",
+        "targetLWCLayout": "lightning",
+        "targetLWCParams": "c__ContextId%Text1%",
+        "targetType": "Vlocity OmniScript",
+        "validationRequired": "Submit",
+        "variant": "brand",
+        "wpm": false
+    },
+    "Type": "Navigate Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/OS_LaunchOSFromOS_Pass_ContextId/OS_LaunchOSFromOS_Pass_ContextId/English/NavigateAction1"
+}
