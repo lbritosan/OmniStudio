@@ -4,6 +4,7 @@ VlocityDataPackKeys:
     - DataRaptor/DR_AccountTurboDataRaptor
     - DataRaptor/DR_ApexHours_Turbo
     - DataRaptor/DR_CreateAccountRelatedContact
+    - DataRaptor/DR_CreateAccountWithFile
     - DataRaptor/DR_CreateContact
     - DataRaptor/DR_Extract_AccountDetails
     - DataRaptor/DR_Extract_GetContact
@@ -19,6 +20,7 @@ VlocityDataPackKeys:
     - DataRaptor/DR_MoneyHeistTeam_Contacts
     - DataRaptor/DR_MultiObjectMultipleRecordsInsert
     - DataRaptor/DR_MultiObjectSingleRecordInsert
+    - DataRaptor/DR_MultipleRelatedObjects
     - DataRaptor/DR_OS_FetchAccounts
     - DataRaptor/DR_SingleObjectInsert
     - DataRaptor/DR_SingleObjectMultiRecordInsert
@@ -105,6 +107,7 @@ VlocityDataPackKeys:
     - OmniScript/OS_DataRaptorActions_OS_DataRaptorActions_English
     - OmniScript/OS_DisplayElements_OS_DisplayElements_English
     - OmniScript/OS_EditBlock_OS_EditBlock_English
+    - OmniScript/OS_FileUpload_ContentDocumentLink_OS_FileUpload_ContentDocumentLink_English
     - OmniScript/OS_First_OS_First_English
     - OmniScript/OS_InputElements_SelectMultiRadio_OS_InputElements_SelectMultiRadio_English
     - OmniScript/OS_IP_Action_OS_IP_Action_English
@@ -225,7 +228,7 @@ VlocityDataPackKeys:
     - lwc/teamUpdateAccountPrimaryContactEnglish
     - lwc/updateAccountDetailsEnglish
     - remoteSiteSettings/ChuckNorrisAPI.remoteSite
-    - DataRaptor/DR_MultipleRelatedObjects
+    - lwc/oS_FileUpload_ContentDocumentLinkOS_FileUpload_ContentDocumentLinkEnglish
 VlocityTypesToFetch:
     - DataRaptor
     - IntegrationProcedure
